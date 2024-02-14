@@ -1,0 +1,62 @@
+[
+  {
+    "id":"62607496300197989749"
+   ,"Identification":{
+      "File Name":"icons\/app-icon-32.png"
+    }
+   ,"Attributes":{
+      "Mime Type":"image\/png"
+     ,"File Character Set":"Unicode UTF-8"
+    }
+  }
+ ,{
+    "id":"62607496530451989749"
+   ,"Identification":{
+      "File Name":"icons\/app-icon-144-rounded.png"
+    }
+   ,"Attributes":{
+      "Mime Type":"image\/png"
+     ,"File Character Set":"Unicode UTF-8"
+    }
+  }
+ ,{
+    "id":"62607496803957989750"
+   ,"Identification":{
+      "File Name":"icons\/app-icon-192.png"
+    }
+   ,"Attributes":{
+      "Mime Type":"image\/png"
+     ,"File Character Set":"Unicode UTF-8"
+    }
+  }
+ ,{
+    "id":"62607497170033989750"
+   ,"Identification":{
+      "File Name":"icons\/app-icon-256-rounded.png"
+    }
+   ,"Attributes":{
+      "Mime Type":"image\/png"
+     ,"File Character Set":"Unicode UTF-8"
+    }
+  }
+ ,{
+    "id":"62607497461587989750"
+   ,"Identification":{
+      "File Name":"icons\/app-icon-512.png"
+    }
+   ,"Attributes":{
+      "Mime Type":"image\/png"
+     ,"File Character Set":"Unicode UTF-8"
+    }
+  }
+ ,{
+    "id":"64219527975083278147"
+   ,"Identification":{
+      "File Name":"script\/jquery.mask.min.js"
+    }
+   ,"Attributes":{
+      "Mime Type":"text\/javascript"
+     ,"File Character Set":"Unicode UTF-8"
+    }
+  }
+]

@@ -1,0 +1,1003 @@
+{
+  "id":"21"
+ ,"Identification":{
+    "Name":"Cadastro de Filiais"
+   ,"Alias":"CADASTRO-DE-FILIAIS"
+   ,"Title":"Cadastro de Filiais"
+  }
+ ,"Appearance":{
+    "Page Mode":"Modal Dialog"
+   ,"Dialog Template":"Theme Default"
+   ,"Template Options":[
+      "#DEFAULT#"
+    ]
+  }
+ ,"Dialog":{
+    "Chained":false
+  }
+ ,"Navigation Menu":{
+    "Override User Interface Level":false
+  }
+ ,"Navigation":{
+    "Cursor Focus":"Do not focus cursor"
+   ,"Warn on Unsaved Changes":true
+  }
+ ,"Security":{
+    "Authentication":"Page Requires Authentication"
+   ,"Deep Linking":"Application Default"
+   ,"Page Access Protection":"Arguments Must Have Checksum"
+   ,"Form Auto Complete":"Off"
+   ,"Browser Cache":"Application Default"
+  }
+ ,"Session Management":{
+    "Rejoin Sessions":"Application Default"
+  }
+ ,"Advanced":{
+    "Enable duplicate page submissions":"Yes - Enable page to be re-posted"
+   ,"Reload on Submit":"Only for Success"
+  }
+ ,"Server Cache":{
+    "Caching":"Disabled"
+  }
+ ,"Regions":[
+    {
+      "id":"63194524367316890000"
+     ,"Identification":{
+        "Title":"Cadastro de Filiais"
+       ,"Type":"Form"
+      }
+     ,"Source":{
+        "Location":"Local Database"
+       ,"Type":"Table \/ View"
+       ,"Table Owner":"Parsing Schema"
+       ,"Table Name":"ERP_FILIAL"
+       ,"Include ROWID Column":false
+      }
+     ,"Layout":{
+        "Sequence":10
+       ,"Parent Region":"No Parent"
+       ,"Position":"BODY"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Template":"Blank with Attributes (62607242239143989576)"
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Edit":{
+          "Enabled":true
+         ,"Allowed Operations":[
+            "Add Row"
+           ,"Update Row"
+           ,"Delete Row"
+          ]
+         ,"Lost Update Type":"Row Values"
+        }
+      }
+    }
+   ,{
+      "id":"63194530206486890004"
+     ,"Identification":{
+        "Title":"Buttons"
+       ,"Type":"Static Content"
+      }
+     ,"Layout":{
+        "Sequence":20
+       ,"Parent Region":"No Parent"
+       ,"Position":"REGION_POSITION_03"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Template":"Buttons Container (62607245031339989577)"
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Settings":{
+          "Output As":"Text (escape special characters)"
+         ,"Show Line Breaks":true
+        }
+      }
+    }
+  ]
+ ,"Page Items":[
+    {
+      "id":"63194524608987890000"
+     ,"Identification":{
+        "Name":"P21_ID"
+       ,"Type":"Hidden"
+      }
+     ,"Settings":{
+        "Value Protected":true
+      }
+     ,"Layout":{
+        "Sequence":10
+       ,"Region":"Cadastro de Filiais (63194524367316890000)"
+       ,"Position":"BODY"
+      }
+     ,"Advanced":{
+        "Warn on Unsaved Changes":"Page Default"
+      }
+     ,"Source":{
+        "Form Region":"Cadastro de Filiais (63194524367316890000)"
+       ,"Column":"ID"
+       ,"Data Type":"NUMBER"
+       ,"Query Only":true
+       ,"Primary Key":true
+      }
+     ,"Session State":{
+        "Data Type":"VARCHAR2"
+       ,"Storage":"Per Request (Memory Only)"
+      }
+     ,"Security":{
+        "Session State Protection":"Checksum Required - Session Level"
+       ,"Store value encrypted in session state":true
+       ,"Restricted Characters":"All characters can be saved."
+      }
+    }
+   ,{
+      "id":"63194525066861890001"
+     ,"Identification":{
+        "Name":"P21_NOME"
+       ,"Type":"Text Field"
+      }
+     ,"Label":{
+        "Label":"Nome"
+       ,"Alignment":"Right"
+      }
+     ,"Settings":{
+        "Subtype":"Text"
+       ,"Trim Spaces":"None"
+       ,"Text Case":"NO CHANGE"
+       ,"Submit when Enter pressed":false
+       ,"Disabled":false
+      }
+     ,"Layout":{
+        "Sequence":20
+       ,"Region":"Cadastro de Filiais (63194524367316890000)"
+       ,"Position":"BODY"
+       ,"Alignment":"Left"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+       ,"Label Column Span":"Page Template Default"
+      }
+     ,"Appearance":{
+        "Template":"Required - Floating (62607380865936989632)"
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+       ,"Width":32
+      }
+     ,"Validation":{
+        "Value Required":true
+       ,"Maximum Length":200
+      }
+     ,"Advanced":{
+        "Warn on Unsaved Changes":"Page Default"
+      }
+     ,"Source":{
+        "Form Region":"Cadastro de Filiais (63194524367316890000)"
+       ,"Column":"NOME"
+       ,"Data Type":"VARCHAR2"
+       ,"Query Only":false
+       ,"Primary Key":false
+      }
+     ,"Session State":{
+        "Storage":"Per Request (Memory Only)"
+      }
+     ,"Quick Picks":{
+        "Show Quick Picks":false
+      }
+     ,"Security":{
+        "Session State Protection":"Unrestricted"
+       ,"Store value encrypted in session state":true
+       ,"Restricted Characters":"All characters can be saved."
+      }
+    }
+   ,{
+      "id":"63194525440129890001"
+     ,"Identification":{
+        "Name":"P21_CNPJ"
+       ,"Type":"Text Field"
+      }
+     ,"Label":{
+        "Label":"CNPJ"
+       ,"Alignment":"Left"
+      }
+     ,"Settings":{
+        "Subtype":"Text"
+       ,"Trim Spaces":"None"
+       ,"Text Case":"NO CHANGE"
+       ,"Submit when Enter pressed":false
+       ,"Disabled":false
+      }
+     ,"Layout":{
+        "Sequence":30
+       ,"Region":"Cadastro de Filiais (63194524367316890000)"
+       ,"Position":"BODY"
+       ,"Alignment":"Left"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+       ,"Label Column Span":"Page Template Default"
+      }
+     ,"Appearance":{
+        "Template":"Required - Floating (62607380865936989632)"
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+       ,"Width":32
+      }
+     ,"Validation":{
+        "Value Required":true
+       ,"Maximum Length":14
+      }
+     ,"Advanced":{
+        "Custom Attributes":[
+          "data-mask=\"00.000.000\/0000-00\""
+        ]
+       ,"Warn on Unsaved Changes":"Page Default"
+      }
+     ,"Source":{
+        "Form Region":"Cadastro de Filiais (63194524367316890000)"
+       ,"Column":"CNPJ"
+       ,"Data Type":"VARCHAR2"
+       ,"Query Only":false
+       ,"Primary Key":false
+      }
+     ,"Session State":{
+        "Storage":"Per Request (Memory Only)"
+      }
+     ,"Quick Picks":{
+        "Show Quick Picks":false
+      }
+     ,"Security":{
+        "Session State Protection":"Unrestricted"
+       ,"Store value encrypted in session state":true
+       ,"Restricted Characters":"All characters can be saved."
+      }
+    }
+   ,{
+      "id":"63194525855460890001"
+     ,"Identification":{
+        "Name":"P21_ATIVO"
+       ,"Type":"Hidden"
+      }
+     ,"Settings":{
+        "Value Protected":true
+      }
+     ,"Layout":{
+        "Sequence":40
+       ,"Region":"Cadastro de Filiais (63194524367316890000)"
+       ,"Position":"BODY"
+      }
+     ,"Advanced":{
+        "Warn on Unsaved Changes":"Page Default"
+      }
+     ,"Source":{
+        "Form Region":"Cadastro de Filiais (63194524367316890000)"
+       ,"Column":"ATIVO"
+       ,"Data Type":"VARCHAR2"
+       ,"Query Only":false
+       ,"Primary Key":false
+      }
+     ,"Default":{
+        "Type":"Static"
+       ,"Static Value":"Y"
+      }
+     ,"Session State":{
+        "Data Type":"VARCHAR2"
+       ,"Storage":"Per Request (Memory Only)"
+      }
+     ,"Security":{
+        "Session State Protection":"Unrestricted"
+       ,"Store value encrypted in session state":true
+       ,"Restricted Characters":"All characters can be saved."
+      }
+    }
+   ,{
+      "id":"63194526229175890002"
+     ,"Identification":{
+        "Name":"P21_DATA_CRIACAO"
+       ,"Type":"Hidden"
+      }
+     ,"Settings":{
+        "Value Protected":true
+      }
+     ,"Layout":{
+        "Sequence":50
+       ,"Region":"Cadastro de Filiais (63194524367316890000)"
+       ,"Position":"BODY"
+      }
+     ,"Advanced":{
+        "Warn on Unsaved Changes":"Page Default"
+      }
+     ,"Source":{
+        "Form Region":"Cadastro de Filiais (63194524367316890000)"
+       ,"Column":"DATA_CRIACAO"
+       ,"Data Type":"DATE"
+       ,"Query Only":false
+       ,"Primary Key":false
+      }
+     ,"Session State":{
+        "Data Type":"VARCHAR2"
+       ,"Storage":"Per Request (Memory Only)"
+      }
+     ,"Security":{
+        "Session State Protection":"Unrestricted"
+       ,"Store value encrypted in session state":true
+       ,"Restricted Characters":"All characters can be saved."
+      }
+    }
+   ,{
+      "id":"63194526621680890002"
+     ,"Identification":{
+        "Name":"P21_DATA_ATUALIZACAO"
+       ,"Type":"Hidden"
+      }
+     ,"Settings":{
+        "Value Protected":true
+      }
+     ,"Layout":{
+        "Sequence":60
+       ,"Region":"Cadastro de Filiais (63194524367316890000)"
+       ,"Position":"BODY"
+      }
+     ,"Advanced":{
+        "Warn on Unsaved Changes":"Page Default"
+      }
+     ,"Source":{
+        "Form Region":"Cadastro de Filiais (63194524367316890000)"
+       ,"Column":"DATA_ATUALIZACAO"
+       ,"Data Type":"DATE"
+       ,"Query Only":false
+       ,"Primary Key":false
+      }
+     ,"Session State":{
+        "Data Type":"VARCHAR2"
+       ,"Storage":"Per Request (Memory Only)"
+      }
+     ,"Security":{
+        "Session State Protection":"Unrestricted"
+       ,"Store value encrypted in session state":true
+       ,"Restricted Characters":"All characters can be saved."
+      }
+    }
+   ,{
+      "id":"63194527065188890002"
+     ,"Identification":{
+        "Name":"P21_CRIADO_POR"
+       ,"Type":"Hidden"
+      }
+     ,"Settings":{
+        "Value Protected":true
+      }
+     ,"Layout":{
+        "Sequence":70
+       ,"Region":"Cadastro de Filiais (63194524367316890000)"
+       ,"Position":"BODY"
+      }
+     ,"Advanced":{
+        "Warn on Unsaved Changes":"Page Default"
+      }
+     ,"Source":{
+        "Form Region":"Cadastro de Filiais (63194524367316890000)"
+       ,"Column":"CRIADO_POR"
+       ,"Data Type":"VARCHAR2"
+       ,"Query Only":false
+       ,"Primary Key":false
+      }
+     ,"Session State":{
+        "Data Type":"VARCHAR2"
+       ,"Storage":"Per Request (Memory Only)"
+      }
+     ,"Security":{
+        "Session State Protection":"Unrestricted"
+       ,"Store value encrypted in session state":true
+       ,"Restricted Characters":"All characters can be saved."
+      }
+    }
+   ,{
+      "id":"63194527494307890003"
+     ,"Identification":{
+        "Name":"P21_ATUALIZADO_POR"
+       ,"Type":"Hidden"
+      }
+     ,"Settings":{
+        "Value Protected":true
+      }
+     ,"Layout":{
+        "Sequence":80
+       ,"Region":"Cadastro de Filiais (63194524367316890000)"
+       ,"Position":"BODY"
+      }
+     ,"Advanced":{
+        "Warn on Unsaved Changes":"Page Default"
+      }
+     ,"Source":{
+        "Form Region":"Cadastro de Filiais (63194524367316890000)"
+       ,"Column":"ATUALIZADO_POR"
+       ,"Data Type":"VARCHAR2"
+       ,"Query Only":false
+       ,"Primary Key":false
+      }
+     ,"Session State":{
+        "Data Type":"VARCHAR2"
+       ,"Storage":"Per Request (Memory Only)"
+      }
+     ,"Security":{
+        "Session State Protection":"Unrestricted"
+       ,"Store value encrypted in session state":true
+       ,"Restricted Characters":"All characters can be saved."
+      }
+    }
+  ]
+ ,"Buttons":[
+    {
+      "id":"42360816587745512335"
+     ,"Identification":{
+        "Button Name":"ATIVAR"
+       ,"Label":"Ativar"
+      }
+     ,"Layout":{
+        "Sequence":15
+       ,"Region":"Buttons (63194530206486890004)"
+       ,"Position":"CLOSE"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Button Template":"Text (62607382055443989633)"
+       ,"Hot":false
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"t-Button--success"
+        ]
+      }
+     ,"Behavior":{
+        "Action":"Submit Page"
+       ,"Execute Validations":true
+       ,"Warn on Unsaved Changes":"Do Not Check"
+      }
+     ,"Server-side Condition":{
+        "Type":"Item is NOT NULL"
+       ,"Item":"P21_ID"
+      }
+    }
+   ,{
+      "id":"42360816731519512337"
+     ,"Identification":{
+        "Button Name":"DESATIVAR"
+       ,"Label":"Desativar"
+      }
+     ,"Layout":{
+        "Sequence":20
+       ,"Region":"Buttons (63194530206486890004)"
+       ,"Position":"CLOSE"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Button Template":"Text (62607382055443989633)"
+       ,"Hot":false
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"t-Button--danger"
+        ]
+      }
+     ,"Behavior":{
+        "Action":"Submit Page"
+       ,"Execute Validations":true
+       ,"Warn on Unsaved Changes":"Do Not Check"
+      }
+     ,"Server-side Condition":{
+        "Type":"Item is NOT NULL"
+       ,"Item":"P21_ID"
+      }
+    }
+   ,{
+      "id":"63194530671621890005"
+     ,"Identification":{
+        "Button Name":"CANCEL"
+       ,"Label":"Cancelar"
+      }
+     ,"Layout":{
+        "Sequence":10
+       ,"Region":"Buttons (63194530206486890004)"
+       ,"Position":"CLOSE"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Button Template":"Text (62607382055443989633)"
+       ,"Hot":false
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+      }
+     ,"Behavior":{
+        "Action":"Defined by Dynamic Action"
+       ,"Execute Validations":true
+      }
+    }
+   ,{
+      "id":"63194532405630890006"
+     ,"Identification":{
+        "Button Name":"SAVE"
+       ,"Label":"Salvar"
+      }
+     ,"Layout":{
+        "Sequence":30
+       ,"Region":"Buttons (63194530206486890004)"
+       ,"Position":"NEXT"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Button Template":"Text (62607382055443989633)"
+       ,"Hot":true
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+      }
+     ,"Behavior":{
+        "Action":"Submit Page"
+       ,"Execute Validations":true
+       ,"Warn on Unsaved Changes":"Do Not Check"
+       ,"Database Action":"SQL UPDATE action"
+      }
+     ,"Server-side Condition":{
+        "Type":"Item is NOT NULL"
+       ,"Item":"P21_ID"
+      }
+    }
+   ,{
+      "id":"63194532892762890006"
+     ,"Identification":{
+        "Button Name":"CREATE"
+       ,"Label":"Criar"
+      }
+     ,"Layout":{
+        "Sequence":40
+       ,"Region":"Buttons (63194530206486890004)"
+       ,"Position":"NEXT"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Button Template":"Text (62607382055443989633)"
+       ,"Hot":true
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+      }
+     ,"Behavior":{
+        "Action":"Submit Page"
+       ,"Execute Validations":true
+       ,"Warn on Unsaved Changes":"Do Not Check"
+       ,"Database Action":"SQL INSERT action"
+      }
+     ,"Server-side Condition":{
+        "Type":"Item is NULL"
+       ,"Item":"P21_ID"
+      }
+    }
+  ]
+ ,"Dynamic Actions":[
+    {
+      "id":"63099027748537596915"
+     ,"Identification":{
+        "Name":"Alterar visibilidade"
+      }
+     ,"Execution":{
+        "Sequence":20
+       ,"Event Scope":"Static"
+       ,"Type":"Immediate"
+      }
+     ,"When":{
+        "Event":"EVENT.EVENT.BROWSER.CLICK"
+       ,"Selection Type":"Region"
+       ,"Region":"Cadastro de Filiais (63194524367316890000)"
+      }
+     ,"Client-side Condition":{
+        "Type":"Item = Value"
+       ,"Item":"P21_ATIVO"
+       ,"Value":"N"
+      }
+     ,"Actions":[
+        {
+          "id":"63099027873144596916"
+         ,"Identification":{
+            "Action":"Show"
+          }
+         ,"Affected Elements":{
+            "Selection Type":"Button"
+           ,"Button":"ATIVAR (42360816587745512335)"
+          }
+         ,"Execution":{
+            "Sequence":10
+           ,"Event":"Alterar visibilidade (63099027748537596915)"
+           ,"Fire When Event Result Is":"True"
+           ,"Fire on Initialization":true
+          }
+        }
+       ,{
+          "id":"63099027931995596917"
+         ,"Identification":{
+            "Action":"Hide"
+          }
+         ,"Affected Elements":{
+            "Selection Type":"Button"
+           ,"Button":"DESATIVAR (42360816731519512337)"
+          }
+         ,"Execution":{
+            "Sequence":20
+           ,"Event":"Alterar visibilidade (63099027748537596915)"
+           ,"Fire When Event Result Is":"True"
+           ,"Fire on Initialization":true
+          }
+        }
+       ,{
+          "id":"63099028096897596918"
+         ,"Identification":{
+            "Action":"Hide"
+          }
+         ,"Affected Elements":{
+            "Selection Type":"Button"
+           ,"Button":"ATIVAR (42360816587745512335)"
+          }
+         ,"Execution":{
+            "Sequence":10
+           ,"Event":"Alterar visibilidade (63099027748537596915)"
+           ,"Fire When Event Result Is":"False"
+           ,"Fire on Initialization":true
+          }
+        }
+       ,{
+          "id":"63099028129668596919"
+         ,"Identification":{
+            "Action":"Show"
+          }
+         ,"Affected Elements":{
+            "Selection Type":"Button"
+           ,"Button":"DESATIVAR (42360816731519512337)"
+          }
+         ,"Execution":{
+            "Sequence":20
+           ,"Event":"Alterar visibilidade (63099027748537596915)"
+           ,"Fire When Event Result Is":"False"
+           ,"Fire on Initialization":true
+          }
+        }
+      ]
+    }
+   ,{
+      "id":"63194530784530890005"
+     ,"Identification":{
+        "Name":"Cancel Dialog"
+      }
+     ,"Execution":{
+        "Sequence":10
+       ,"Event Scope":"Static"
+       ,"Type":"Immediate"
+      }
+     ,"When":{
+        "Event":"EVENT.EVENT.BROWSER.CLICK"
+       ,"Selection Type":"Button"
+       ,"Button":"CANCEL (63194530671621890005)"
+      }
+     ,"Actions":[
+        {
+          "id":"63194531599822890005"
+         ,"Identification":{
+            "Action":"Cancel Dialog"
+          }
+         ,"Execution":{
+            "Sequence":10
+           ,"Event":"Cancel Dialog (63194530784530890005)"
+           ,"Fire When Event Result Is":"True"
+           ,"Fire on Initialization":false
+          }
+        }
+      ]
+    }
+  ]
+ ,"Validations":[
+    {
+      "id":"42360814872729512318"
+     ,"Identification":{
+        "Name":"Validation Create CNPJ"
+      }
+     ,"Execution":{
+        "Sequence":20
+      }
+     ,"Validation":{
+        "Type":"No Rows returned"
+       ,"SQL Query":"SELECT 1\nFROM ERP_FILIAL\nWHERE CNPJ = :P21_CNPJ"
+       ,"Always Execute":false
+      }
+     ,"Error":{
+        "Error Message":"Essa CNPJ j\u00E1 est\u00E1 cadastrada no sistema."
+       ,"Display Location":"Inline with Field and in Notification"
+      }
+     ,"Server-side Condition":{
+        "When Button Pressed":"CREATE (63194532892762890006)"
+      }
+    }
+   ,{
+      "id":"42360817149481512341"
+     ,"Identification":{
+        "Name":"Validation Update CNPJ"
+      }
+     ,"Execution":{
+        "Sequence":40
+      }
+     ,"Validation":{
+        "Type":"Rows returned"
+       ,"SQL Query":"SELECT 1\nFROM ERP_FILIAL\nWHERE cnpj = :P21_CNPJ\nAND :P21_CNPJ != (SELECT cnpj FROM ERP_FILIAL WHERE ID = :P21_CNPJ);"
+       ,"Always Execute":false
+      }
+     ,"Error":{
+        "Error Message":"Voc\u00EA n\u00E3o pode alterar um CNPJ ou Entidade cadastrado!"
+       ,"Display Location":"Inline with Field and in Notification"
+      }
+     ,"Server-side Condition":{
+        "When Button Pressed":"SAVE (63194532405630890006)"
+      }
+    }
+   ,{
+      "id":"42360817433306512344"
+     ,"Identification":{
+        "Name":"Validation Create Nome"
+      }
+     ,"Execution":{
+        "Sequence":80
+      }
+     ,"Validation":{
+        "Type":"No Rows returned"
+       ,"SQL Query":"SELECT 1\nFROM ERP_FILIAL\nWHERE NOME = :P21_NOME"
+       ,"Always Execute":false
+      }
+     ,"Error":{
+        "Error Message":"Essa entidade j\u00E1 est\u00E1 cadastrada no sistema."
+       ,"Display Location":"Inline with Field and in Notification"
+      }
+     ,"Server-side Condition":{
+        "When Button Pressed":"CREATE (63194532892762890006)"
+      }
+    }
+   ,{
+      "id":"48300550330626139628"
+     ,"Identification":{
+        "Name":"Validar CNPJ"
+      }
+     ,"Execution":{
+        "Sequence":10
+      }
+     ,"Validation":{
+        "Type":"Expression"
+       ,"Language":"PL\/SQL"
+       ,"PL\/SQL Expression":"pkg_utils.fcn_valida_cnpj(:P21_CNPJ)"
+       ,"Always Execute":false
+      }
+     ,"Error":{
+        "Error Message":"Esse CNPJ \u00E9 Inv\u00E1lido"
+       ,"Display Location":"Inline with Field and in Notification"
+      }
+    }
+  ]
+ ,"Computations":[
+    {
+      "id":"48300550689538139631"
+     ,"Identification":{
+        "Item Name":"P21_CNPJ"
+      }
+     ,"Execution":{
+        "Sequence":10
+       ,"Point":"After Submit"
+      }
+     ,"Computation":{
+        "Type":"Expression"
+       ,"Language":"PL\/SQL"
+       ,"PL\/SQL Expression":"REGEXP_REPLACE(:P21_CNPJ, \u0027[^0-9]\u0027, \u0027\u0027)"
+      }
+     ,"Comments":{
+        "Comments":"Retira a mascara do CNPJ"
+      }
+    }
+  ]
+ ,"Processes":[
+    {
+      "id":"42360816290032512332"
+     ,"Identification":{
+        "Name":"Desativar"
+       ,"Type":"Execute Code"
+       ,"Execution Chain":"None"
+      }
+     ,"Source":{
+        "Location":"Local Database"
+       ,"Language":"PL\/SQL"
+       ,"PL\/SQL Code":"UPDATE ERP_FILIAL\nSET ATIVO = CASE WHEN ATIVO = \u0027S\u0027 THEN \u0027N\u0027 ELSE \u0027N\u0027 END\nWHERE ID = :P21_ID;\n\n"
+      }
+     ,"Execution":{
+        "Sequence":80
+       ,"Point":"Processing"
+       ,"Run Process":"Once Per Page Visit (default)"
+      }
+     ,"Error":{
+        "Display Location":"Inline in Notification"
+      }
+     ,"Server-side Condition":{
+        "When Button Pressed":"DESATIVAR (42360816731519512337)"
+      }
+    }
+   ,{
+      "id":"42360816951052512339"
+     ,"Identification":{
+        "Name":"Close Dialog Ativar\/Desativar"
+       ,"Type":"Close Dialog"
+       ,"Execution Chain":"None"
+      }
+     ,"Settings":{
+        "Show Success Messages":false
+      }
+     ,"Execution":{
+        "Sequence":90
+       ,"Point":"Processing"
+       ,"Run Process":"Once Per Page Visit (default)"
+      }
+     ,"Error":{
+        "Display Location":"Inline in Notification"
+      }
+     ,"Server-side Condition":{
+        "Type":"Request is contained in Value"
+       ,"Value":"ATIVAR,DESATIVAR"
+      }
+    }
+   ,{
+      "id":"63189805078854809204"
+     ,"Identification":{
+        "Name":"Ativar"
+       ,"Type":"Execute Code"
+       ,"Execution Chain":"None"
+      }
+     ,"Source":{
+        "Location":"Local Database"
+       ,"Language":"PL\/SQL"
+       ,"PL\/SQL Code":"UPDATE ERP_FILIAL\nSET ATIVO = CASE WHEN ATIVO = \u0027N\u0027 THEN \u0027S\u0027 END\nWHERE ID = :P21_ID;\n\n\n\n"
+      }
+     ,"Execution":{
+        "Sequence":70
+       ,"Point":"Processing"
+       ,"Run Process":"Once Per Page Visit (default)"
+      }
+     ,"Error":{
+        "Display Location":"Inline in Notification"
+      }
+     ,"Server-side Condition":{
+        "When Button Pressed":"ATIVAR (42360816587745512335)"
+      }
+    }
+   ,{
+      "id":"63194533226998890006"
+     ,"Identification":{
+        "Name":"Initialize form Cadastro de Filiais"
+       ,"Type":"Form - Initialization"
+       ,"Execution Chain":"None"
+       ,"Form Region":"Cadastro de Filiais (63194524367316890000)"
+      }
+     ,"Execution":{
+        "Sequence":10
+       ,"Point":"Before Header"
+       ,"Run Process":"Once Per Page Visit (default)"
+      }
+    }
+   ,{
+      "id":"63194533640626890007"
+     ,"Identification":{
+        "Name":"Process form Cadastro de Filiais"
+       ,"Type":"Form - Automatic Row Processing (DML)"
+       ,"Execution Chain":"None"
+       ,"Form Region":"Cadastro de Filiais (63194524367316890000)"
+      }
+     ,"Settings":{
+        "Target Type":"Region Source"
+       ,"Prevent Lost Updates":true
+       ,"Lock Row":"Yes"
+       ,"Return Primary Key(s) after Insert":true
+      }
+     ,"Execution":{
+        "Sequence":10
+       ,"Point":"Processing"
+       ,"Run Process":"Once Per Page Visit (default)"
+      }
+     ,"Error":{
+        "Display Location":"Inline in Notification"
+      }
+    }
+   ,{
+      "id":"63194534039084890007"
+     ,"Identification":{
+        "Name":"Close Dialog"
+       ,"Type":"Close Dialog"
+       ,"Execution Chain":"None"
+      }
+     ,"Settings":{
+        "Show Success Messages":true
+      }
+     ,"Execution":{
+        "Sequence":50
+       ,"Point":"Processing"
+       ,"Run Process":"Once Per Page Visit (default)"
+      }
+     ,"Error":{
+        "Display Location":"Inline in Notification"
+      }
+     ,"Server-side Condition":{
+        "Type":"Request is contained in Value"
+       ,"Value":"CREATE,SAVE,DELETE"
+      }
+    }
+  ]
+}

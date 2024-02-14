@@ -1,0 +1,47 @@
+[
+  {
+    "id":"62607499183489989753"
+   ,"Identification":{
+      "Name":"Administrator"
+    }
+   ,"Advanced":{
+      "Static ID":"ADMINISTRATOR"
+    }
+   ,"Description":{
+      "Description":"Role assigned to application administrators."
+    }
+   ,"Subscription":{
+      "Version Number":15506358567507
+    }
+  }
+ ,{
+    "id":"62607499319057989753"
+   ,"Identification":{
+      "Name":"Contributor"
+    }
+   ,"Advanced":{
+      "Static ID":"CONTRIBUTOR"
+    }
+   ,"Description":{
+      "Description":"Role assigned to application contributors."
+    }
+   ,"Subscription":{
+      "Version Number":15506358567508
+    }
+  }
+ ,{
+    "id":"62607499489651989753"
+   ,"Identification":{
+      "Name":"Reader"
+    }
+   ,"Advanced":{
+      "Static ID":"READER"
+    }
+   ,"Description":{
+      "Description":"Role assigned to application readers."
+    }
+   ,"Subscription":{
+      "Version Number":15506358567508
+    }
+  }
+]

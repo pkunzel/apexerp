@@ -1,0 +1,144 @@
+[
+  {
+    "id":"62607545200016989891"
+   ,"Identification":{
+      "Name":"ACCESS_ROLES"
+    }
+   ,"Source":{
+      "Location":"Local Database"
+     ,"Type":"SQL Query"
+     ,"SQL Query":"select role_name d, role_id r\nfrom APEX_APPL_ACL_ROLES where application_id = :APP_ID \norder by 1"
+    }
+   ,"Column Mapping":{
+      "Return":"R"
+     ,"Display":"D"
+     ,"Default Sort":"Use Order By from Query"
+    }
+  }
+ ,{
+    "id":"62607552705949989896"
+   ,"Identification":{
+      "Name":"EMAIL_USERNAME_FORMAT"
+    }
+   ,"Source":{
+      "Location":"Static Values"
+    }
+   ,"Entries":[
+      {
+        "id":"62607553085607989896"
+       ,"Entry":{
+          "Sequence":1
+         ,"Display":"Email Addresses"
+         ,"Return":"EMAIL"
+        }
+      }
+    ]
+  }
+ ,{
+    "id":"62737626307714115332"
+   ,"Identification":{
+      "Name":"ERP_FUNCIONARIO.NOME"
+    }
+   ,"Source":{
+      "Location":"Local Database"
+     ,"Type":"Table \/ View"
+     ,"Table Owner":"Parsing Schema"
+     ,"Table Name":"ERP_FUNCIONARIO"
+    }
+   ,"Column Mapping":{
+      "Return":"ID"
+     ,"Display":"NOME"
+     ,"Default Sort":"NOME"
+     ,"Sort Direction":"Ascending (Nulls Last)"
+    }
+  }
+ ,{
+    "id":"62737636689153115342"
+   ,"Identification":{
+      "Name":"ERP_CARGO_FUNCIONARIO.DESCRICAO"
+    }
+   ,"Source":{
+      "Location":"Local Database"
+     ,"Type":"Table \/ View"
+     ,"Table Owner":"Parsing Schema"
+     ,"Table Name":"ERP_CARGO_FUNCIONARIO"
+    }
+   ,"Column Mapping":{
+      "Return":"ID"
+     ,"Display":"DESCRICAO"
+     ,"Default Sort":"DESCRICAO"
+     ,"Sort Direction":"Ascending (Nulls Last)"
+    }
+  }
+ ,{
+    "id":"62737636921220115342"
+   ,"Identification":{
+      "Name":"ERP_FILIAL.NOME"
+    }
+   ,"Source":{
+      "Location":"Local Database"
+     ,"Type":"Table \/ View"
+     ,"Table Owner":"Parsing Schema"
+     ,"Table Name":"ERP_FILIAL"
+    }
+   ,"Column Mapping":{
+      "Return":"ID"
+     ,"Display":"NOME"
+     ,"Default Sort":"NOME"
+     ,"Sort Direction":"Ascending (Nulls Last)"
+    }
+  }
+ ,{
+    "id":"63194535259245890008"
+   ,"Identification":{
+      "Name":"ERP_ESTADO.NOME"
+    }
+   ,"Source":{
+      "Location":"Local Database"
+     ,"Type":"Table \/ View"
+     ,"Table Owner":"Parsing Schema"
+     ,"Table Name":"ERP_ESTADO"
+    }
+   ,"Column Mapping":{
+      "Return":"ID"
+     ,"Display":"NOME"
+     ,"Default Sort":"NOME"
+     ,"Sort Direction":"Ascending (Nulls Last)"
+    }
+  }
+ ,{
+    "id":"63226980631925005549"
+   ,"Identification":{
+      "Name":"SIM_NAO"
+    }
+   ,"Source":{
+      "Location":"Static Values"
+    }
+   ,"Entries":[
+      {
+        "id":"63226980963502005550"
+       ,"Entry":{
+          "Sequence":1
+         ,"Display":"N\u00E3o"
+         ,"Return":"N"
+        }
+      }
+     ,{
+        "id":"63226981388910005551"
+       ,"Entry":{
+          "Sequence":2
+         ,"Display":"Sim"
+         ,"Return":"Y"
+        }
+      }
+     ,{
+        "id":"64223925799794347677"
+       ,"Entry":{
+          "Sequence":3
+         ,"Display":"Sim"
+         ,"Return":"S"
+        }
+      }
+    ]
+  }
+]

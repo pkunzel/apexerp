@@ -1,0 +1,630 @@
+{
+  "id":"6"
+ ,"Identification":{
+    "Name":"Tipo Contato"
+   ,"Alias":"TIPO-CONTATO"
+   ,"Title":"Tipo Contato"
+  }
+ ,"Appearance":{
+    "Page Mode":"Modal Dialog"
+   ,"Dialog Template":"Modal Dialog (62607226958701989569)"
+   ,"Template Options":[
+      "#DEFAULT#"
+    ]
+  }
+ ,"Dialog":{
+    "Chained":false
+  }
+ ,"Navigation Menu":{
+    "Override User Interface Level":false
+  }
+ ,"Navigation":{
+    "Cursor Focus":"Do not focus cursor"
+   ,"Warn on Unsaved Changes":true
+  }
+ ,"Security":{
+    "Authentication":"Page Requires Authentication"
+   ,"Deep Linking":"Application Default"
+   ,"Page Access Protection":"Arguments Must Have Checksum"
+   ,"Form Auto Complete":"Off"
+   ,"Browser Cache":"Application Default"
+  }
+ ,"Session Management":{
+    "Rejoin Sessions":"Application Default"
+  }
+ ,"Advanced":{
+    "Enable duplicate page submissions":"Yes - Enable page to be re-posted"
+   ,"Reload on Submit":"Only for Success"
+  }
+ ,"Server Cache":{
+    "Caching":"Disabled"
+  }
+ ,"Regions":[
+    {
+      "id":"62726473308020502339"
+     ,"Identification":{
+        "Title":"Tipo Contato"
+       ,"Type":"Form"
+      }
+     ,"Source":{
+        "Location":"Local Database"
+       ,"Type":"Table \/ View"
+       ,"Table Owner":"Parsing Schema"
+       ,"Table Name":"ERP_TIPO_CONTATO"
+       ,"Include ROWID Column":false
+      }
+     ,"Layout":{
+        "Sequence":10
+       ,"Parent Region":"No Parent"
+       ,"Position":"BODY"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Template":"Blank with Attributes (62607242239143989576)"
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Edit":{
+          "Enabled":true
+         ,"Allowed Operations":[
+            "Add Row"
+           ,"Update Row"
+           ,"Delete Row"
+          ]
+         ,"Lost Update Type":"Row Values"
+        }
+      }
+    }
+   ,{
+      "id":"62726477830226502343"
+     ,"Identification":{
+        "Title":"Buttons"
+       ,"Type":"Static Content"
+      }
+     ,"Layout":{
+        "Sequence":20
+       ,"Parent Region":"No Parent"
+       ,"Position":"REGION_POSITION_03"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Template":"Buttons Container (62607245031339989577)"
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Settings":{
+          "Output As":"Text (escape special characters)"
+         ,"Show Line Breaks":true
+        }
+      }
+    }
+  ]
+ ,"Page Items":[
+    {
+      "id":"62726473641516502340"
+     ,"Identification":{
+        "Name":"P6_ID"
+       ,"Type":"Hidden"
+      }
+     ,"Settings":{
+        "Value Protected":true
+      }
+     ,"Layout":{
+        "Sequence":10
+       ,"Region":"Tipo Contato (62726473308020502339)"
+       ,"Position":"BODY"
+      }
+     ,"Advanced":{
+        "Warn on Unsaved Changes":"Page Default"
+      }
+     ,"Source":{
+        "Form Region":"Tipo Contato (62726473308020502339)"
+       ,"Column":"ID"
+       ,"Data Type":"NUMBER"
+       ,"Query Only":true
+       ,"Primary Key":true
+      }
+     ,"Session State":{
+        "Data Type":"VARCHAR2"
+       ,"Storage":"Per Request (Memory Only)"
+      }
+     ,"Security":{
+        "Session State Protection":"Checksum Required - Session Level"
+       ,"Store value encrypted in session state":true
+       ,"Restricted Characters":"All characters can be saved."
+      }
+    }
+   ,{
+      "id":"62726474009037502340"
+     ,"Identification":{
+        "Name":"P6_DESCRICAO"
+       ,"Type":"Text Field"
+      }
+     ,"Label":{
+        "Label":"Descri\u00E7\u00E3o"
+       ,"Alignment":"Left"
+      }
+     ,"Settings":{
+        "Subtype":"Text"
+       ,"Trim Spaces":"None"
+       ,"Text Case":"NO CHANGE"
+       ,"Submit when Enter pressed":false
+       ,"Disabled":false
+      }
+     ,"Layout":{
+        "Sequence":20
+       ,"Region":"Tipo Contato (62726473308020502339)"
+       ,"Position":"BODY"
+       ,"Alignment":"Left"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+       ,"Label Column Span":"Page Template Default"
+      }
+     ,"Appearance":{
+        "Template":"Required - Floating (62607380865936989632)"
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+       ,"Width":32
+      }
+     ,"Validation":{
+        "Value Required":true
+       ,"Maximum Length":100
+      }
+     ,"Advanced":{
+        "Warn on Unsaved Changes":"Page Default"
+      }
+     ,"Source":{
+        "Form Region":"Tipo Contato (62726473308020502339)"
+       ,"Column":"DESCRICAO"
+       ,"Data Type":"VARCHAR2"
+       ,"Query Only":false
+       ,"Primary Key":false
+      }
+     ,"Session State":{
+        "Storage":"Per Request (Memory Only)"
+      }
+     ,"Quick Picks":{
+        "Show Quick Picks":false
+      }
+     ,"Security":{
+        "Session State Protection":"Unrestricted"
+       ,"Store value encrypted in session state":true
+       ,"Restricted Characters":"All characters can be saved."
+      }
+    }
+   ,{
+      "id":"62726474418619502341"
+     ,"Identification":{
+        "Name":"P6_DATA_CRIACAO"
+       ,"Type":"Hidden"
+      }
+     ,"Settings":{
+        "Value Protected":true
+      }
+     ,"Layout":{
+        "Sequence":30
+       ,"Region":"Tipo Contato (62726473308020502339)"
+       ,"Position":"BODY"
+      }
+     ,"Advanced":{
+        "Warn on Unsaved Changes":"Page Default"
+      }
+     ,"Source":{
+        "Form Region":"Tipo Contato (62726473308020502339)"
+       ,"Column":"DATA_CRIACAO"
+       ,"Data Type":"DATE"
+       ,"Query Only":false
+       ,"Primary Key":false
+      }
+     ,"Session State":{
+        "Data Type":"VARCHAR2"
+       ,"Storage":"Per Request (Memory Only)"
+      }
+     ,"Security":{
+        "Session State Protection":"Unrestricted"
+       ,"Store value encrypted in session state":true
+       ,"Restricted Characters":"All characters can be saved."
+      }
+    }
+   ,{
+      "id":"62726474878072502341"
+     ,"Identification":{
+        "Name":"P6_DATA_ATUALIZACAO"
+       ,"Type":"Hidden"
+      }
+     ,"Settings":{
+        "Value Protected":true
+      }
+     ,"Layout":{
+        "Sequence":40
+       ,"Region":"Tipo Contato (62726473308020502339)"
+       ,"Position":"BODY"
+      }
+     ,"Advanced":{
+        "Warn on Unsaved Changes":"Page Default"
+      }
+     ,"Source":{
+        "Form Region":"Tipo Contato (62726473308020502339)"
+       ,"Column":"DATA_ATUALIZACAO"
+       ,"Data Type":"DATE"
+       ,"Query Only":false
+       ,"Primary Key":false
+      }
+     ,"Session State":{
+        "Data Type":"VARCHAR2"
+       ,"Storage":"Per Request (Memory Only)"
+      }
+     ,"Security":{
+        "Session State Protection":"Unrestricted"
+       ,"Store value encrypted in session state":true
+       ,"Restricted Characters":"All characters can be saved."
+      }
+    }
+   ,{
+      "id":"62726475226432502341"
+     ,"Identification":{
+        "Name":"P6_CRIADO_POR"
+       ,"Type":"Hidden"
+      }
+     ,"Settings":{
+        "Value Protected":true
+      }
+     ,"Layout":{
+        "Sequence":50
+       ,"Region":"Tipo Contato (62726473308020502339)"
+       ,"Position":"BODY"
+      }
+     ,"Advanced":{
+        "Warn on Unsaved Changes":"Page Default"
+      }
+     ,"Source":{
+        "Form Region":"Tipo Contato (62726473308020502339)"
+       ,"Column":"CRIADO_POR"
+       ,"Data Type":"VARCHAR2"
+       ,"Query Only":false
+       ,"Primary Key":false
+      }
+     ,"Session State":{
+        "Data Type":"VARCHAR2"
+       ,"Storage":"Per Request (Memory Only)"
+      }
+     ,"Security":{
+        "Session State Protection":"Unrestricted"
+       ,"Store value encrypted in session state":true
+       ,"Restricted Characters":"All characters can be saved."
+      }
+    }
+   ,{
+      "id":"62726475642079502341"
+     ,"Identification":{
+        "Name":"P6_ATUALIZADO_POR"
+       ,"Type":"Hidden"
+      }
+     ,"Settings":{
+        "Value Protected":true
+      }
+     ,"Layout":{
+        "Sequence":60
+       ,"Region":"Tipo Contato (62726473308020502339)"
+       ,"Position":"BODY"
+      }
+     ,"Advanced":{
+        "Warn on Unsaved Changes":"Page Default"
+      }
+     ,"Source":{
+        "Form Region":"Tipo Contato (62726473308020502339)"
+       ,"Column":"ATUALIZADO_POR"
+       ,"Data Type":"VARCHAR2"
+       ,"Query Only":false
+       ,"Primary Key":false
+      }
+     ,"Session State":{
+        "Data Type":"VARCHAR2"
+       ,"Storage":"Per Request (Memory Only)"
+      }
+     ,"Security":{
+        "Session State Protection":"Unrestricted"
+       ,"Store value encrypted in session state":true
+       ,"Restricted Characters":"All characters can be saved."
+      }
+    }
+  ]
+ ,"Buttons":[
+    {
+      "id":"62726478208251502343"
+     ,"Identification":{
+        "Button Name":"CANCEL"
+       ,"Label":"Cancelar"
+      }
+     ,"Layout":{
+        "Sequence":10
+       ,"Region":"Buttons (62726477830226502343)"
+       ,"Position":"CLOSE"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Button Template":"Text (62607382055443989633)"
+       ,"Hot":false
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+      }
+     ,"Behavior":{
+        "Action":"Defined by Dynamic Action"
+       ,"Execute Validations":true
+      }
+    }
+   ,{
+      "id":"62726479649511502344"
+     ,"Identification":{
+        "Button Name":"DELETE"
+       ,"Label":"Deletar"
+      }
+     ,"Layout":{
+        "Sequence":20
+       ,"Region":"Buttons (62726477830226502343)"
+       ,"Position":"DELETE"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Button Template":"Text (62607382055443989633)"
+       ,"Hot":false
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"t-Button--danger"
+        ]
+      }
+     ,"Behavior":{
+        "Action":"Submit Page"
+       ,"Execute Validations":false
+       ,"Warn on Unsaved Changes":"Do Not Check"
+       ,"Database Action":"SQL DELETE action"
+      }
+     ,"Confirmation":{
+        "Message":"\u0026APP_TEXT$DELETE_MSG!RAW."
+       ,"Style":"Danger"
+      }
+     ,"Server-side Condition":{
+        "Type":"Item is NOT NULL"
+       ,"Item":"P6_ID"
+      }
+    }
+   ,{
+      "id":"62726480085188502345"
+     ,"Identification":{
+        "Button Name":"SAVE"
+       ,"Label":"Salvar"
+      }
+     ,"Layout":{
+        "Sequence":30
+       ,"Region":"Buttons (62726477830226502343)"
+       ,"Position":"NEXT"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Button Template":"Text (62607382055443989633)"
+       ,"Hot":true
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+      }
+     ,"Behavior":{
+        "Action":"Submit Page"
+       ,"Execute Validations":true
+       ,"Warn on Unsaved Changes":"Do Not Check"
+       ,"Database Action":"SQL UPDATE action"
+      }
+     ,"Server-side Condition":{
+        "Type":"Item is NOT NULL"
+       ,"Item":"P6_ID"
+      }
+    }
+   ,{
+      "id":"62726480428838502345"
+     ,"Identification":{
+        "Button Name":"CREATE"
+       ,"Label":"Criar"
+      }
+     ,"Layout":{
+        "Sequence":40
+       ,"Region":"Buttons (62726477830226502343)"
+       ,"Position":"NEXT"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Button Template":"Text (62607382055443989633)"
+       ,"Hot":true
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+      }
+     ,"Behavior":{
+        "Action":"Submit Page"
+       ,"Execute Validations":true
+       ,"Warn on Unsaved Changes":"Do Not Check"
+       ,"Database Action":"SQL INSERT action"
+      }
+     ,"Server-side Condition":{
+        "Type":"Item is NULL"
+       ,"Item":"P6_ID"
+      }
+    }
+  ]
+ ,"Dynamic Actions":[
+    {
+      "id":"62726478322202502343"
+     ,"Identification":{
+        "Name":"Cancel Dialog"
+      }
+     ,"Execution":{
+        "Sequence":10
+       ,"Event Scope":"Static"
+       ,"Type":"Immediate"
+      }
+     ,"When":{
+        "Event":"EVENT.EVENT.BROWSER.CLICK"
+       ,"Selection Type":"Button"
+       ,"Button":"CANCEL (62726478208251502343)"
+      }
+     ,"Actions":[
+        {
+          "id":"62726479110102502344"
+         ,"Identification":{
+            "Action":"Cancel Dialog"
+          }
+         ,"Execution":{
+            "Sequence":10
+           ,"Event":"Cancel Dialog (62726478322202502343)"
+           ,"Fire When Event Result Is":"True"
+           ,"Fire on Initialization":false
+          }
+        }
+      ]
+    }
+  ]
+ ,"Validations":[
+    {
+      "id":"48300549932279139624"
+     ,"Identification":{
+        "Name":"Unicidade Tipo Contato"
+      }
+     ,"Execution":{
+        "Sequence":20
+      }
+     ,"Validation":{
+        "Type":"No Rows returned"
+       ,"SQL Query":"SELECT 1\nFROM ERP_TIPO_CONTATO\nWHERE DESCRICAO = :P6_DESCRICAO;"
+       ,"Always Execute":false
+      }
+     ,"Error":{
+        "Error Message":"Esse tipo de contato j\u00E1 est\u00E1 cadastrado!"
+       ,"Display Location":"Inline with Field"
+       ,"Associated Item":"P6_DESCRICAO (62726474009037502340)"
+      }
+    }
+  ]
+ ,"Processes":[
+    {
+      "id":"62726480846812502345"
+     ,"Identification":{
+        "Name":"Initialize form Tipo Contato"
+       ,"Type":"Form - Initialization"
+       ,"Execution Chain":"None"
+       ,"Form Region":"Tipo Contato (62726473308020502339)"
+      }
+     ,"Execution":{
+        "Sequence":10
+       ,"Point":"Before Header"
+       ,"Run Process":"Once Per Page Visit (default)"
+      }
+    }
+   ,{
+      "id":"62726481285194502345"
+     ,"Identification":{
+        "Name":"Process form Tipo Contato"
+       ,"Type":"Form - Automatic Row Processing (DML)"
+       ,"Execution Chain":"None"
+       ,"Form Region":"Tipo Contato (62726473308020502339)"
+      }
+     ,"Settings":{
+        "Target Type":"Region Source"
+       ,"Prevent Lost Updates":true
+       ,"Lock Row":"Yes"
+       ,"Return Primary Key(s) after Insert":true
+      }
+     ,"Execution":{
+        "Sequence":10
+       ,"Point":"Processing"
+       ,"Run Process":"Once Per Page Visit (default)"
+      }
+     ,"Error":{
+        "Display Location":"Inline in Notification"
+      }
+    }
+   ,{
+      "id":"62726481630246502346"
+     ,"Identification":{
+        "Name":"Close Dialog"
+       ,"Type":"Close Dialog"
+       ,"Execution Chain":"None"
+      }
+     ,"Settings":{
+        "Show Success Messages":true
+      }
+     ,"Execution":{
+        "Sequence":50
+       ,"Point":"Processing"
+       ,"Run Process":"Once Per Page Visit (default)"
+      }
+     ,"Error":{
+        "Display Location":"Inline in Notification"
+      }
+     ,"Server-side Condition":{
+        "Type":"Request is contained in Value"
+       ,"Value":"CREATE,SAVE,DELETE"
+      }
+    }
+  ]
+}

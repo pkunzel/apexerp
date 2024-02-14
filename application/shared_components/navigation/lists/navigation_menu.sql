@@ -1,0 +1,83 @@
+prompt --application/shared_components/navigation/lists/navigation_menu
+begin
+--   Manifest
+--     LIST: Navigation Menu
+--   Manifest End
+wwv_flow_imp.component_begin (
+ p_version_yyyy_mm_dd=>'2023.10.31'
+,p_release=>'23.2.1'
+,p_default_workspace_id=>58992462908322316485
+,p_default_application_id=>208153
+,p_default_id_offset=>0
+,p_default_owner=>'WKSP_STEFANINITRAINING'
+);
+wwv_flow_imp_shared.create_list(
+ p_id=>wwv_flow_imp.id(62607205390537989558)
+,p_name=>'Navigation Menu'
+,p_list_status=>'PUBLIC'
+);
+wwv_flow_imp_shared.create_list_item(
+ p_id=>wwv_flow_imp.id(62607508639018989762)
+,p_list_item_display_sequence=>10
+,p_list_item_link_text=>'Home'
+,p_list_item_link_target=>'f?p=&APP_ID.:1:&APP_SESSION.::&DEBUG.:::'
+,p_list_item_icon=>'fa-home'
+,p_list_item_current_type=>'TARGET_PAGE'
+);
+wwv_flow_imp_shared.create_list_item(
+ p_id=>wwv_flow_imp.id(63105338967006696390)
+,p_list_item_display_sequence=>20
+,p_list_item_link_text=>unistr('Usu\00E1rios')
+,p_list_item_link_target=>'f?p=&APP_ID.:2:&APP_SESSION.::&DEBUG.:::'
+,p_list_item_icon=>'fa-table'
+,p_list_item_current_type=>'COLON_DELIMITED_PAGE_LIST'
+,p_list_item_current_for_pages=>'2,14'
+);
+wwv_flow_imp_shared.create_list_item(
+ p_id=>wwv_flow_imp.id(62726482253850502346)
+,p_list_item_display_sequence=>30
+,p_list_item_link_text=>'Tipo Contato'
+,p_list_item_link_target=>'f?p=&APP_ID.:5:&APP_SESSION.::&DEBUG.:::'
+,p_list_item_icon=>'fa-phone'
+,p_list_item_current_type=>'COLON_DELIMITED_PAGE_LIST'
+,p_list_item_current_for_pages=>'5,6'
+);
+wwv_flow_imp_shared.create_list_item(
+ p_id=>wwv_flow_imp.id(63157645294752214710)
+,p_list_item_display_sequence=>40
+,p_list_item_link_text=>unistr('Funcion\00E1rios')
+,p_list_item_link_target=>'f?p=&APP_ID.:18:&SESSION.::&DEBUG.::::'
+,p_list_item_icon=>'fa-address-card-o'
+,p_list_item_current_type=>'COLON_DELIMITED_PAGE_LIST'
+,p_list_item_current_for_pages=>'18,19'
+);
+wwv_flow_imp_shared.create_list_item(
+ p_id=>wwv_flow_imp.id(62803240772821997156)
+,p_list_item_display_sequence=>50
+,p_list_item_link_text=>'Estado'
+,p_list_item_link_target=>'f?p=&APP_ID.:12:&APP_SESSION.::&DEBUG.:::'
+,p_list_item_icon=>'fa-map-o'
+,p_list_item_current_type=>'COLON_DELIMITED_PAGE_LIST'
+,p_list_item_current_for_pages=>'12,13'
+);
+wwv_flow_imp_shared.create_list_item(
+ p_id=>wwv_flow_imp.id(63194534639724890007)
+,p_list_item_display_sequence=>60
+,p_list_item_link_text=>'Filiais'
+,p_list_item_link_target=>'f?p=&APP_ID.:20:&SESSION.::&DEBUG.::::'
+,p_list_item_icon=>'fa-building-o'
+,p_list_item_current_type=>'COLON_DELIMITED_PAGE_LIST'
+,p_list_item_current_for_pages=>'20,21'
+);
+wwv_flow_imp_shared.create_list_item(
+ p_id=>wwv_flow_imp.id(62607572008142990112)
+,p_list_item_display_sequence=>10000
+,p_list_item_link_text=>'Administration'
+,p_list_item_link_target=>'f?p=&APP_ID.:10000:&APP_SESSION.::&DEBUG.:::'
+,p_list_item_icon=>'fa-user-wrench'
+,p_security_scheme=>wwv_flow_imp.id(62607499510564989753)
+,p_list_item_current_type=>'TARGET_PAGE'
+);
+wwv_flow_imp.component_end;
+end;
+/

@@ -1,0 +1,886 @@
+{
+  "id":"19"
+ ,"Identification":{
+    "Name":"Cadastro de funcion\u00E1rio"
+   ,"Alias":"CADASTRO-DE-FUNCION\u00C1RIO"
+   ,"Title":"Cadastro de funcion\u00E1rio"
+  }
+ ,"Appearance":{
+    "Page Mode":"Modal Dialog"
+   ,"Dialog Template":"Modal Dialog (62607226958701989569)"
+   ,"Template Options":[
+      "#DEFAULT#"
+    ]
+  }
+ ,"Dialog":{
+    "Chained":false
+  }
+ ,"Navigation Menu":{
+    "Override User Interface Level":false
+  }
+ ,"Navigation":{
+    "Cursor Focus":"Do not focus cursor"
+   ,"Warn on Unsaved Changes":true
+  }
+ ,"Security":{
+    "Authentication":"Page Requires Authentication"
+   ,"Deep Linking":"Application Default"
+   ,"Page Access Protection":"Arguments Must Have Checksum"
+   ,"Form Auto Complete":"Off"
+   ,"Browser Cache":"Application Default"
+  }
+ ,"Session Management":{
+    "Rejoin Sessions":"Application Default"
+  }
+ ,"Advanced":{
+    "Enable duplicate page submissions":"Yes - Enable page to be re-posted"
+   ,"Reload on Submit":"Only for Success"
+  }
+ ,"Server Cache":{
+    "Caching":"Disabled"
+  }
+ ,"Regions":[
+    {
+      "id":"63157634212265214701"
+     ,"Identification":{
+        "Title":"Cadastro de funcion\u00E1rio"
+       ,"Type":"Form"
+      }
+     ,"Source":{
+        "Location":"Local Database"
+       ,"Type":"Table \/ View"
+       ,"Table Owner":"Parsing Schema"
+       ,"Table Name":"ERP_FUNCIONARIO"
+       ,"Include ROWID Column":false
+      }
+     ,"Layout":{
+        "Sequence":10
+       ,"Parent Region":"No Parent"
+       ,"Position":"BODY"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Template":"Blank with Attributes (62607242239143989576)"
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Edit":{
+          "Enabled":true
+         ,"Allowed Operations":[
+            "Add Row"
+           ,"Update Row"
+           ,"Delete Row"
+          ]
+         ,"Lost Update Type":"Row Values"
+        }
+      }
+    }
+   ,{
+      "id":"63157640867942214706"
+     ,"Identification":{
+        "Title":"Buttons"
+       ,"Type":"Static Content"
+      }
+     ,"Layout":{
+        "Sequence":20
+       ,"Parent Region":"No Parent"
+       ,"Position":"REGION_POSITION_03"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Template":"Buttons Container (62607245031339989577)"
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Settings":{
+          "Output As":"Text (escape special characters)"
+         ,"Show Line Breaks":true
+        }
+      }
+    }
+  ]
+ ,"Page Items":[
+    {
+      "id":"63157634522080214702"
+     ,"Identification":{
+        "Name":"P19_ID"
+       ,"Type":"Hidden"
+      }
+     ,"Settings":{
+        "Value Protected":true
+      }
+     ,"Layout":{
+        "Sequence":10
+       ,"Region":"Cadastro de funcion\u00E1rio (63157634212265214701)"
+       ,"Position":"BODY"
+      }
+     ,"Advanced":{
+        "Warn on Unsaved Changes":"Page Default"
+      }
+     ,"Source":{
+        "Form Region":"Cadastro de funcion\u00E1rio (63157634212265214701)"
+       ,"Column":"ID"
+       ,"Data Type":"NUMBER"
+       ,"Query Only":true
+       ,"Primary Key":true
+      }
+     ,"Session State":{
+        "Data Type":"VARCHAR2"
+       ,"Storage":"Per Session (Persistent)"
+      }
+     ,"Security":{
+        "Session State Protection":"Checksum Required - Session Level"
+       ,"Store value encrypted in session state":true
+       ,"Restricted Characters":"All characters can be saved."
+      }
+    }
+   ,{
+      "id":"63157634977476214703"
+     ,"Identification":{
+        "Name":"P19_NOME"
+       ,"Type":"Text Field"
+      }
+     ,"Label":{
+        "Label":"Nome"
+       ,"Alignment":"Left"
+      }
+     ,"Settings":{
+        "Subtype":"Text"
+       ,"Trim Spaces":"None"
+       ,"Text Case":"NO CHANGE"
+       ,"Submit when Enter pressed":false
+       ,"Disabled":false
+      }
+     ,"Layout":{
+        "Sequence":20
+       ,"Region":"Cadastro de funcion\u00E1rio (63157634212265214701)"
+       ,"Position":"BODY"
+       ,"Alignment":"Left"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+       ,"Label Column Span":"Page Template Default"
+      }
+     ,"Appearance":{
+        "Template":"Required - Floating (62607380865936989632)"
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+       ,"Width":32
+      }
+     ,"Validation":{
+        "Value Required":true
+       ,"Maximum Length":50
+      }
+     ,"Advanced":{
+        "Warn on Unsaved Changes":"Page Default"
+      }
+     ,"Source":{
+        "Form Region":"Cadastro de funcion\u00E1rio (63157634212265214701)"
+       ,"Column":"NOME"
+       ,"Data Type":"VARCHAR2"
+       ,"Query Only":false
+       ,"Primary Key":false
+      }
+     ,"Session State":{
+        "Storage":"Per Request (Memory Only)"
+      }
+     ,"Quick Picks":{
+        "Show Quick Picks":false
+      }
+     ,"Security":{
+        "Session State Protection":"Unrestricted"
+       ,"Store value encrypted in session state":true
+       ,"Restricted Characters":"All characters can be saved."
+      }
+    }
+   ,{
+      "id":"63157635304681214703"
+     ,"Identification":{
+        "Name":"P19_CPF"
+       ,"Type":"Text Field"
+      }
+     ,"Label":{
+        "Label":"CPF"
+       ,"Alignment":"Left"
+      }
+     ,"Settings":{
+        "Subtype":"Text"
+       ,"Trim Spaces":"None"
+       ,"Text Case":"NO CHANGE"
+       ,"Submit when Enter pressed":false
+       ,"Disabled":false
+      }
+     ,"Layout":{
+        "Sequence":30
+       ,"Region":"Cadastro de funcion\u00E1rio (63157634212265214701)"
+       ,"Position":"BODY"
+       ,"Alignment":"Left"
+       ,"Start New Layout":false
+       ,"Start New Row":false
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+       ,"Label Column Span":"Page Template Default"
+      }
+     ,"Appearance":{
+        "Template":"Required - Floating (62607380865936989632)"
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+       ,"Width":32
+      }
+     ,"Validation":{
+        "Value Required":true
+       ,"Maximum Length":11
+      }
+     ,"Advanced":{
+        "Custom Attributes":[
+          "data-mask=\"000.000.000-00\""
+        ]
+       ,"Warn on Unsaved Changes":"Page Default"
+      }
+     ,"Source":{
+        "Form Region":"Cadastro de funcion\u00E1rio (63157634212265214701)"
+       ,"Column":"CPF"
+       ,"Data Type":"VARCHAR2"
+       ,"Query Only":false
+       ,"Primary Key":false
+      }
+     ,"Session State":{
+        "Storage":"Per Request (Memory Only)"
+      }
+     ,"Quick Picks":{
+        "Show Quick Picks":false
+      }
+     ,"Security":{
+        "Session State Protection":"Unrestricted"
+       ,"Store value encrypted in session state":true
+       ,"Restricted Characters":"All characters can be saved."
+      }
+    }
+   ,{
+      "id":"63157635738682214703"
+     ,"Identification":{
+        "Name":"P19_REPORTA_PARA"
+       ,"Type":"Select List"
+      }
+     ,"Label":{
+        "Label":"Reporta para"
+       ,"Alignment":"Left"
+      }
+     ,"Settings":{
+        "Page Action on Selection":"None"
+       ,"Allow Multi Selection":false
+      }
+     ,"Layout":{
+        "Sequence":40
+       ,"Region":"Cadastro de funcion\u00E1rio (63157634212265214701)"
+       ,"Position":"BODY"
+       ,"Alignment":"Left"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+       ,"Label Column Span":"Page Template Default"
+      }
+     ,"Appearance":{
+        "Template":"Optional - Floating (62607379520013989632)"
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+       ,"Height":1
+      }
+     ,"Validation":{
+        "Value Required":false
+      }
+     ,"List of Values":{
+        "Type":"Shared Component"
+       ,"List of Values":"ERP_FUNCIONARIO.NOME (62737626307714115332)"
+       ,"Display Extra Values":true
+       ,"Display Null Value":true
+      }
+     ,"Advanced":{
+        "Warn on Unsaved Changes":"Page Default"
+      }
+     ,"Source":{
+        "Form Region":"Cadastro de funcion\u00E1rio (63157634212265214701)"
+       ,"Column":"REPORTA_PARA"
+       ,"Data Type":"NUMBER"
+       ,"Query Only":false
+       ,"Primary Key":false
+      }
+     ,"Session State":{
+        "Storage":"Per Request (Memory Only)"
+      }
+     ,"Quick Picks":{
+        "Show Quick Picks":false
+      }
+     ,"Security":{
+        "Session State Protection":"Unrestricted"
+       ,"Store value encrypted in session state":true
+       ,"Restricted Characters":"All characters can be saved."
+      }
+    }
+   ,{
+      "id":"63157636178992214703"
+     ,"Identification":{
+        "Name":"P19_DATA_CRIACAO"
+       ,"Type":"Hidden"
+      }
+     ,"Settings":{
+        "Value Protected":true
+      }
+     ,"Layout":{
+        "Sequence":50
+       ,"Region":"Cadastro de funcion\u00E1rio (63157634212265214701)"
+       ,"Position":"BODY"
+      }
+     ,"Advanced":{
+        "Warn on Unsaved Changes":"Page Default"
+      }
+     ,"Source":{
+        "Form Region":"Cadastro de funcion\u00E1rio (63157634212265214701)"
+       ,"Column":"DATA_CRIACAO"
+       ,"Data Type":"DATE"
+       ,"Query Only":false
+       ,"Primary Key":false
+      }
+     ,"Session State":{
+        "Data Type":"VARCHAR2"
+       ,"Storage":"Per Request (Memory Only)"
+      }
+     ,"Security":{
+        "Session State Protection":"Unrestricted"
+       ,"Store value encrypted in session state":true
+       ,"Restricted Characters":"All characters can be saved."
+      }
+    }
+   ,{
+      "id":"63157636503818214704"
+     ,"Identification":{
+        "Name":"P19_DATA_ATUALIZACAO"
+       ,"Type":"Hidden"
+      }
+     ,"Settings":{
+        "Value Protected":true
+      }
+     ,"Layout":{
+        "Sequence":60
+       ,"Region":"Cadastro de funcion\u00E1rio (63157634212265214701)"
+       ,"Position":"BODY"
+      }
+     ,"Advanced":{
+        "Warn on Unsaved Changes":"Page Default"
+      }
+     ,"Source":{
+        "Form Region":"Cadastro de funcion\u00E1rio (63157634212265214701)"
+       ,"Column":"DATA_ATUALIZACAO"
+       ,"Data Type":"DATE"
+       ,"Query Only":false
+       ,"Primary Key":false
+      }
+     ,"Session State":{
+        "Data Type":"VARCHAR2"
+       ,"Storage":"Per Request (Memory Only)"
+      }
+     ,"Security":{
+        "Session State Protection":"Unrestricted"
+       ,"Store value encrypted in session state":true
+       ,"Restricted Characters":"All characters can be saved."
+      }
+    }
+   ,{
+      "id":"63157636941225214704"
+     ,"Identification":{
+        "Name":"P19_CRIADO_POR"
+       ,"Type":"Hidden"
+      }
+     ,"Settings":{
+        "Value Protected":true
+      }
+     ,"Layout":{
+        "Sequence":70
+       ,"Region":"Cadastro de funcion\u00E1rio (63157634212265214701)"
+       ,"Position":"BODY"
+      }
+     ,"Advanced":{
+        "Warn on Unsaved Changes":"Page Default"
+      }
+     ,"Source":{
+        "Form Region":"Cadastro de funcion\u00E1rio (63157634212265214701)"
+       ,"Column":"CRIADO_POR"
+       ,"Data Type":"VARCHAR2"
+       ,"Query Only":false
+       ,"Primary Key":false
+      }
+     ,"Session State":{
+        "Data Type":"VARCHAR2"
+       ,"Storage":"Per Request (Memory Only)"
+      }
+     ,"Security":{
+        "Session State Protection":"Unrestricted"
+       ,"Store value encrypted in session state":true
+       ,"Restricted Characters":"All characters can be saved."
+      }
+    }
+   ,{
+      "id":"63157637390273214704"
+     ,"Identification":{
+        "Name":"P19_ATUALIZADO_POR"
+       ,"Type":"Hidden"
+      }
+     ,"Settings":{
+        "Value Protected":true
+      }
+     ,"Layout":{
+        "Sequence":80
+       ,"Region":"Cadastro de funcion\u00E1rio (63157634212265214701)"
+       ,"Position":"BODY"
+      }
+     ,"Advanced":{
+        "Warn on Unsaved Changes":"Page Default"
+      }
+     ,"Source":{
+        "Form Region":"Cadastro de funcion\u00E1rio (63157634212265214701)"
+       ,"Column":"ATUALIZADO_POR"
+       ,"Data Type":"VARCHAR2"
+       ,"Query Only":false
+       ,"Primary Key":false
+      }
+     ,"Session State":{
+        "Data Type":"VARCHAR2"
+       ,"Storage":"Per Request (Memory Only)"
+      }
+     ,"Security":{
+        "Session State Protection":"Unrestricted"
+       ,"Store value encrypted in session state":true
+       ,"Restricted Characters":"All characters can be saved."
+      }
+    }
+   ,{
+      "id":"63157637728955214705"
+     ,"Identification":{
+        "Name":"P19_USUARIO_ID"
+       ,"Type":"Number Field"
+      }
+     ,"Label":{
+        "Label":"Usuario ID"
+       ,"Alignment":"Left"
+      }
+     ,"Settings":{
+        "Number Alignment":"Start"
+       ,"Virtual Keyboard":"Decimal"
+      }
+     ,"Layout":{
+        "Sequence":90
+       ,"Region":"Cadastro de funcion\u00E1rio (63157634212265214701)"
+       ,"Position":"BODY"
+       ,"Alignment":"Left"
+       ,"Start New Layout":false
+       ,"Start New Row":false
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+       ,"Label Column Span":"Page Template Default"
+      }
+     ,"Appearance":{
+        "Template":"Optional - Floating (62607379520013989632)"
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+       ,"Width":32
+      }
+     ,"Validation":{
+        "Value Required":false
+       ,"Maximum Length":255
+      }
+     ,"Advanced":{
+        "Warn on Unsaved Changes":"Page Default"
+      }
+     ,"Source":{
+        "Form Region":"Cadastro de funcion\u00E1rio (63157634212265214701)"
+       ,"Column":"USUARIO_ID"
+       ,"Data Type":"NUMBER"
+       ,"Query Only":false
+       ,"Primary Key":false
+      }
+     ,"Session State":{
+        "Storage":"Per Request (Memory Only)"
+      }
+     ,"Quick Picks":{
+        "Show Quick Picks":false
+      }
+     ,"Security":{
+        "Session State Protection":"Unrestricted"
+       ,"Store value encrypted in session state":true
+       ,"Restricted Characters":"All characters can be saved."
+      }
+    }
+  ]
+ ,"Buttons":[
+    {
+      "id":"63157641280492214707"
+     ,"Identification":{
+        "Button Name":"CANCEL"
+       ,"Label":"Cancelar"
+      }
+     ,"Layout":{
+        "Sequence":10
+       ,"Region":"Buttons (63157640867942214706)"
+       ,"Position":"CLOSE"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Button Template":"Text (62607382055443989633)"
+       ,"Hot":false
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+      }
+     ,"Behavior":{
+        "Action":"Defined by Dynamic Action"
+       ,"Execute Validations":true
+      }
+    }
+   ,{
+      "id":"63157642686700214708"
+     ,"Identification":{
+        "Button Name":"DELETE"
+       ,"Label":"Excluir"
+      }
+     ,"Layout":{
+        "Sequence":20
+       ,"Region":"Buttons (63157640867942214706)"
+       ,"Position":"DELETE"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Button Template":"Text (62607382055443989633)"
+       ,"Hot":false
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+      }
+     ,"Behavior":{
+        "Action":"Submit Page"
+       ,"Execute Validations":false
+       ,"Warn on Unsaved Changes":"Do Not Check"
+       ,"Database Action":"SQL DELETE action"
+      }
+     ,"Confirmation":{
+        "Message":"Tem certeza que deseja excluir o funcion\u00E1rio \u0026P19_NOME.?"
+       ,"Style":"Danger"
+      }
+     ,"Server-side Condition":{
+        "Type":"Item is NOT NULL"
+       ,"Item":"P19_ID"
+      }
+    }
+   ,{
+      "id":"63157643026724214708"
+     ,"Identification":{
+        "Button Name":"SAVE"
+       ,"Label":"Salvar"
+      }
+     ,"Layout":{
+        "Sequence":30
+       ,"Region":"Buttons (63157640867942214706)"
+       ,"Position":"NEXT"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Button Template":"Text (62607382055443989633)"
+       ,"Hot":true
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+      }
+     ,"Behavior":{
+        "Action":"Submit Page"
+       ,"Execute Validations":true
+       ,"Warn on Unsaved Changes":"Do Not Check"
+       ,"Database Action":"SQL UPDATE action"
+      }
+     ,"Server-side Condition":{
+        "Type":"Item is NOT NULL"
+       ,"Item":"P19_ID"
+      }
+    }
+   ,{
+      "id":"63157643485126214708"
+     ,"Identification":{
+        "Button Name":"CREATE"
+       ,"Label":"Criar"
+      }
+     ,"Layout":{
+        "Sequence":40
+       ,"Region":"Buttons (63157640867942214706)"
+       ,"Position":"NEXT"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Button Template":"Text (62607382055443989633)"
+       ,"Hot":true
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+      }
+     ,"Behavior":{
+        "Action":"Submit Page"
+       ,"Execute Validations":true
+       ,"Warn on Unsaved Changes":"Do Not Check"
+       ,"Database Action":"SQL INSERT action"
+      }
+     ,"Server-side Condition":{
+        "Type":"Item is NULL"
+       ,"Item":"P19_ID"
+      }
+    }
+  ]
+ ,"Dynamic Actions":[
+    {
+      "id":"63157641321265214707"
+     ,"Identification":{
+        "Name":"Cancel Dialog"
+      }
+     ,"Execution":{
+        "Sequence":10
+       ,"Event Scope":"Static"
+       ,"Type":"Immediate"
+      }
+     ,"When":{
+        "Event":"EVENT.EVENT.BROWSER.CLICK"
+       ,"Selection Type":"Button"
+       ,"Button":"CANCEL (63157641280492214707)"
+      }
+     ,"Actions":[
+        {
+          "id":"63157642179798214708"
+         ,"Identification":{
+            "Action":"Cancel Dialog"
+          }
+         ,"Execution":{
+            "Sequence":10
+           ,"Event":"Cancel Dialog (63157641321265214707)"
+           ,"Fire When Event Result Is":"True"
+           ,"Fire on Initialization":false
+          }
+        }
+      ]
+    }
+  ]
+ ,"Validations":[
+    {
+      "id":"62562086172073398049"
+     ,"Identification":{
+        "Name":"Check CPF exists"
+      }
+     ,"Execution":{
+        "Sequence":10
+      }
+     ,"Validation":{
+        "Type":"No Rows returned"
+       ,"SQL Query":"SELECT 1\nFROM ERP_FUNCIONARIO\nWHERE CPF = :P19_CPF\nAND (ID \u003C\u003E :P19_ID OR :P19_ID IS NULL)"
+       ,"Always Execute":false
+      }
+     ,"Error":{
+        "Error Message":"CPF j\u00E1 cadastrado no sistema!"
+       ,"Display Location":"Inline with Field and in Notification"
+       ,"Associated Item":"P19_CPF (63157635304681214703)"
+      }
+     ,"Server-side Condition":{
+        "Type":"Request is contained in Value"
+       ,"Value":"CREATE,SAVE"
+      }
+    }
+   ,{
+      "id":"63157701841881223205"
+     ,"Identification":{
+        "Name":"Check length CPF"
+      }
+     ,"Execution":{
+        "Sequence":40
+      }
+     ,"Validation":{
+        "Type":"Expression"
+       ,"Language":"PL\/SQL"
+       ,"PL\/SQL Expression":"length(:P19_CPF) = 11"
+       ,"Always Execute":false
+      }
+     ,"Error":{
+        "Error Message":"Tamanho do CPF \u00E9 inv\u00E1lido!"
+       ,"Display Location":"Inline with Field and in Notification"
+       ,"Associated Item":"P19_CPF (63157635304681214703)"
+      }
+     ,"Server-side Condition":{
+        "Type":"Request is contained in Value"
+       ,"Value":"CREATE,SAVE"
+      }
+    }
+   ,{
+      "id":"63157702185168223208"
+     ,"Identification":{
+        "Name":"Check if CPF is valid"
+      }
+     ,"Execution":{
+        "Sequence":30
+      }
+     ,"Validation":{
+        "Type":"Expression"
+       ,"Language":"PL\/SQL"
+       ,"PL\/SQL Expression":"PKG_UTILS.FCN_VALIDAR_CPF(:P19_CPF)"
+       ,"Always Execute":false
+      }
+     ,"Error":{
+        "Error Message":"CPF digitado \u00E9 inv\u00E1lido!"
+       ,"Display Location":"Inline with Field and in Notification"
+       ,"Associated Item":"P19_CPF (63157635304681214703)"
+      }
+     ,"Server-side Condition":{
+        "Type":"Request is contained in Value"
+       ,"Value":"CREATE,SAVE"
+      }
+    }
+  ]
+ ,"Computations":[
+    {
+      "id":"63099027111157596909"
+     ,"Identification":{
+        "Item Name":"P19_CPF"
+      }
+     ,"Execution":{
+        "Sequence":10
+       ,"Point":"After Submit"
+      }
+     ,"Computation":{
+        "Type":"Expression"
+       ,"Language":"PL\/SQL"
+       ,"PL\/SQL Expression":"REGEXP_REPLACE(:P19_CPF, \u0027[^0-9]\u0027, \u0027\u0027)"
+      }
+    }
+  ]
+ ,"Processes":[
+    {
+      "id":"63157643887562214709"
+     ,"Identification":{
+        "Name":"Initialize form Cadastro de funcion\u00E1rio"
+       ,"Type":"Form - Initialization"
+       ,"Execution Chain":"None"
+       ,"Form Region":"Cadastro de funcion\u00E1rio (63157634212265214701)"
+      }
+     ,"Execution":{
+        "Sequence":10
+       ,"Point":"Before Header"
+       ,"Run Process":"Once Per Page Visit (default)"
+      }
+    }
+   ,{
+      "id":"63157644230393214709"
+     ,"Identification":{
+        "Name":"Process form Cadastro de funcion\u00E1rio"
+       ,"Type":"Form - Automatic Row Processing (DML)"
+       ,"Execution Chain":"None"
+       ,"Form Region":"Cadastro de funcion\u00E1rio (63157634212265214701)"
+      }
+     ,"Settings":{
+        "Target Type":"Region Source"
+       ,"Prevent Lost Updates":true
+       ,"Lock Row":"Yes"
+       ,"Return Primary Key(s) after Insert":true
+      }
+     ,"Execution":{
+        "Sequence":10
+       ,"Point":"Processing"
+       ,"Run Process":"Once Per Page Visit (default)"
+      }
+     ,"Error":{
+        "Display Location":"Inline in Notification"
+      }
+    }
+   ,{
+      "id":"63157644676692214709"
+     ,"Identification":{
+        "Name":"Close Dialog"
+       ,"Type":"Close Dialog"
+       ,"Execution Chain":"None"
+      }
+     ,"Settings":{
+        "Show Success Messages":true
+      }
+     ,"Execution":{
+        "Sequence":50
+       ,"Point":"Processing"
+       ,"Run Process":"Once Per Page Visit (default)"
+      }
+     ,"Error":{
+        "Display Location":"Inline in Notification"
+      }
+     ,"Server-side Condition":{
+        "Type":"Request is contained in Value"
+       ,"Value":"CREATE,SAVE,DELETE"
+      }
+    }
+  ]
+}

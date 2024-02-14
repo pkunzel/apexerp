@@ -1,0 +1,1025 @@
+{
+  "id":"14"
+ ,"Identification":{
+    "Name":"Cadastro de usu\u00E1rio"
+   ,"Alias":"CADASTRO-DE-USU\u00C1RIO"
+   ,"Title":"Cadastro de usu\u00E1rio"
+  }
+ ,"Appearance":{
+    "Page Mode":"Modal Dialog"
+   ,"Dialog Template":"Theme Default"
+   ,"Template Options":[
+      "#DEFAULT#"
+    ]
+  }
+ ,"Dialog":{
+    "Chained":false
+  }
+ ,"Navigation Menu":{
+    "Override User Interface Level":false
+  }
+ ,"Navigation":{
+    "Cursor Focus":"Do not focus cursor"
+   ,"Warn on Unsaved Changes":true
+  }
+ ,"Security":{
+    "Authentication":"Page Requires Authentication"
+   ,"Deep Linking":"Application Default"
+   ,"Page Access Protection":"Arguments Must Have Checksum"
+   ,"Form Auto Complete":"Off"
+   ,"Browser Cache":"Application Default"
+  }
+ ,"Session Management":{
+    "Rejoin Sessions":"Application Default"
+  }
+ ,"Advanced":{
+    "Enable duplicate page submissions":"Yes - Enable page to be re-posted"
+   ,"Reload on Submit":"Only for Success"
+  }
+ ,"Server Cache":{
+    "Caching":"Disabled"
+  }
+ ,"Regions":[
+    {
+      "id":"63105327250468696382"
+     ,"Identification":{
+        "Title":"Cadastro de usu\u00E1rio"
+       ,"Type":"Form"
+      }
+     ,"Source":{
+        "Location":"Local Database"
+       ,"Type":"Table \/ View"
+       ,"Table Owner":"Parsing Schema"
+       ,"Table Name":"ERP_USUARIO"
+       ,"Include ROWID Column":false
+      }
+     ,"Layout":{
+        "Sequence":10
+       ,"Parent Region":"No Parent"
+       ,"Position":"BODY"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Template":"Blank with Attributes (62607242239143989576)"
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Edit":{
+          "Enabled":true
+         ,"Allowed Operations":[
+            "Add Row"
+           ,"Update Row"
+           ,"Delete Row"
+          ]
+         ,"Lost Update Type":"Row Values"
+        }
+      }
+    }
+   ,{
+      "id":"63105334501394696387"
+     ,"Identification":{
+        "Title":"Buttons"
+       ,"Type":"Static Content"
+      }
+     ,"Layout":{
+        "Sequence":20
+       ,"Parent Region":"No Parent"
+       ,"Position":"REGION_POSITION_03"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Template":"Buttons Container (62607245031339989577)"
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Settings":{
+          "Output As":"Text (escape special characters)"
+         ,"Show Line Breaks":true
+        }
+      }
+    }
+  ]
+ ,"Page Items":[
+    {
+      "id":"63105327563324696383"
+     ,"Identification":{
+        "Name":"P14_ID"
+       ,"Type":"Hidden"
+      }
+     ,"Settings":{
+        "Value Protected":true
+      }
+     ,"Layout":{
+        "Sequence":10
+       ,"Region":"Cadastro de usu\u00E1rio (63105327250468696382)"
+       ,"Position":"BODY"
+      }
+     ,"Advanced":{
+        "Warn on Unsaved Changes":"Page Default"
+      }
+     ,"Source":{
+        "Form Region":"Cadastro de usu\u00E1rio (63105327250468696382)"
+       ,"Column":"ID"
+       ,"Data Type":"NUMBER"
+       ,"Query Only":true
+       ,"Primary Key":true
+      }
+     ,"Session State":{
+        "Data Type":"VARCHAR2"
+       ,"Storage":"Per Request (Memory Only)"
+      }
+     ,"Security":{
+        "Session State Protection":"Checksum Required - Session Level"
+       ,"Store value encrypted in session state":true
+       ,"Restricted Characters":"All characters can be saved."
+      }
+    }
+   ,{
+      "id":"63105327926943696383"
+     ,"Identification":{
+        "Name":"P14_LOGIN"
+       ,"Type":"Text Field"
+      }
+     ,"Label":{
+        "Label":"Login"
+       ,"Alignment":"Right"
+      }
+     ,"Settings":{
+        "Subtype":"Text"
+       ,"Trim Spaces":"None"
+       ,"Text Case":"NO CHANGE"
+       ,"Submit when Enter pressed":false
+       ,"Disabled":false
+      }
+     ,"Layout":{
+        "Sequence":20
+       ,"Region":"Cadastro de usu\u00E1rio (63105327250468696382)"
+       ,"Position":"BODY"
+       ,"Alignment":"Left"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+       ,"Label Column Span":"Page Template Default"
+      }
+     ,"Appearance":{
+        "Template":"Required - Floating (62607380865936989632)"
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+       ,"Width":32
+      }
+     ,"Validation":{
+        "Value Required":true
+       ,"Maximum Length":50
+      }
+     ,"Advanced":{
+        "Warn on Unsaved Changes":"Page Default"
+      }
+     ,"Source":{
+        "Form Region":"Cadastro de usu\u00E1rio (63105327250468696382)"
+       ,"Column":"LOGIN"
+       ,"Data Type":"VARCHAR2"
+       ,"Query Only":false
+       ,"Primary Key":false
+      }
+     ,"Session State":{
+        "Storage":"Per Request (Memory Only)"
+      }
+     ,"Quick Picks":{
+        "Show Quick Picks":false
+      }
+     ,"Security":{
+        "Session State Protection":"Unrestricted"
+       ,"Store value encrypted in session state":true
+       ,"Restricted Characters":"All characters can be saved."
+      }
+    }
+   ,{
+      "id":"63105328349065696384"
+     ,"Identification":{
+        "Name":"P14_NOME"
+       ,"Type":"Text Field"
+      }
+     ,"Label":{
+        "Label":"Nome"
+       ,"Alignment":"Right"
+      }
+     ,"Settings":{
+        "Subtype":"Text"
+       ,"Trim Spaces":"None"
+       ,"Text Case":"NO CHANGE"
+       ,"Submit when Enter pressed":false
+       ,"Disabled":false
+      }
+     ,"Layout":{
+        "Sequence":30
+       ,"Region":"Cadastro de usu\u00E1rio (63105327250468696382)"
+       ,"Position":"BODY"
+       ,"Alignment":"Left"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+       ,"Label Column Span":"Page Template Default"
+      }
+     ,"Appearance":{
+        "Template":"Required - Floating (62607380865936989632)"
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+       ,"Width":32
+      }
+     ,"Validation":{
+        "Value Required":true
+       ,"Maximum Length":100
+      }
+     ,"Advanced":{
+        "Warn on Unsaved Changes":"Page Default"
+      }
+     ,"Source":{
+        "Form Region":"Cadastro de usu\u00E1rio (63105327250468696382)"
+       ,"Column":"NOME"
+       ,"Data Type":"VARCHAR2"
+       ,"Query Only":false
+       ,"Primary Key":false
+      }
+     ,"Session State":{
+        "Storage":"Per Request (Memory Only)"
+      }
+     ,"Quick Picks":{
+        "Show Quick Picks":false
+      }
+     ,"Security":{
+        "Session State Protection":"Unrestricted"
+       ,"Store value encrypted in session state":true
+       ,"Restricted Characters":"All characters can be saved."
+      }
+    }
+   ,{
+      "id":"63105328767681696384"
+     ,"Identification":{
+        "Name":"P14_EMAIL"
+       ,"Type":"Text Field"
+      }
+     ,"Label":{
+        "Label":"Email"
+       ,"Alignment":"Right"
+      }
+     ,"Settings":{
+        "Subtype":"Text"
+       ,"Trim Spaces":"None"
+       ,"Text Case":"NO CHANGE"
+       ,"Submit when Enter pressed":false
+       ,"Disabled":false
+      }
+     ,"Layout":{
+        "Sequence":40
+       ,"Region":"Cadastro de usu\u00E1rio (63105327250468696382)"
+       ,"Position":"BODY"
+       ,"Alignment":"Left"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+       ,"Label Column Span":"Page Template Default"
+      }
+     ,"Appearance":{
+        "Template":"Required - Floating (62607380865936989632)"
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+       ,"Width":32
+      }
+     ,"Validation":{
+        "Value Required":true
+       ,"Maximum Length":100
+      }
+     ,"Advanced":{
+        "Warn on Unsaved Changes":"Page Default"
+      }
+     ,"Source":{
+        "Form Region":"Cadastro de usu\u00E1rio (63105327250468696382)"
+       ,"Column":"EMAIL"
+       ,"Data Type":"VARCHAR2"
+       ,"Query Only":false
+       ,"Primary Key":false
+      }
+     ,"Session State":{
+        "Storage":"Per Request (Memory Only)"
+      }
+     ,"Quick Picks":{
+        "Show Quick Picks":false
+      }
+     ,"Security":{
+        "Session State Protection":"Unrestricted"
+       ,"Store value encrypted in session state":true
+       ,"Restricted Characters":"All characters can be saved."
+      }
+    }
+   ,{
+      "id":"63105329129482696384"
+     ,"Identification":{
+        "Name":"P14_ATIVO"
+       ,"Type":"Hidden"
+      }
+     ,"Settings":{
+        "Value Protected":true
+      }
+     ,"Layout":{
+        "Sequence":50
+       ,"Region":"Cadastro de usu\u00E1rio (63105327250468696382)"
+       ,"Position":"BODY"
+      }
+     ,"Advanced":{
+        "Warn on Unsaved Changes":"Page Default"
+      }
+     ,"Source":{
+        "Form Region":"Cadastro de usu\u00E1rio (63105327250468696382)"
+       ,"Column":"ATIVO"
+       ,"Data Type":"VARCHAR2"
+       ,"Query Only":false
+       ,"Primary Key":false
+      }
+     ,"Session State":{
+        "Data Type":"VARCHAR2"
+       ,"Storage":"Per Request (Memory Only)"
+      }
+     ,"Security":{
+        "Session State Protection":"Unrestricted"
+       ,"Store value encrypted in session state":true
+       ,"Restricted Characters":"All characters can be saved."
+      }
+    }
+   ,{
+      "id":"63105331175245696385"
+     ,"Identification":{
+        "Name":"P14_SENHA"
+       ,"Type":"Text Field"
+      }
+     ,"Label":{
+        "Label":"Senha"
+       ,"Alignment":"Left"
+      }
+     ,"Settings":{
+        "Subtype":"Text"
+       ,"Trim Spaces":"None"
+       ,"Text Case":"NO CHANGE"
+       ,"Submit when Enter pressed":false
+       ,"Disabled":false
+      }
+     ,"Layout":{
+        "Sequence":100
+       ,"Region":"Cadastro de usu\u00E1rio (63105327250468696382)"
+       ,"Position":"BODY"
+       ,"Alignment":"Left"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+       ,"Label Column Span":"Page Template Default"
+      }
+     ,"Appearance":{
+        "Template":"Required - Floating (62607380865936989632)"
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+       ,"Width":32
+      }
+     ,"Validation":{
+        "Value Required":true
+       ,"Maximum Length":50
+      }
+     ,"Advanced":{
+        "Warn on Unsaved Changes":"Page Default"
+      }
+     ,"Source":{
+        "Form Region":"Cadastro de usu\u00E1rio (63105327250468696382)"
+       ,"Column":"SENHA"
+       ,"Data Type":"VARCHAR2"
+       ,"Query Only":false
+       ,"Primary Key":false
+      }
+     ,"Session State":{
+        "Storage":"Per Request (Memory Only)"
+      }
+     ,"Quick Picks":{
+        "Show Quick Picks":false
+      }
+     ,"Security":{
+        "Session State Protection":"Unrestricted"
+       ,"Store value encrypted in session state":true
+       ,"Restricted Characters":"All characters can be saved."
+      }
+    }
+  ]
+ ,"Buttons":[
+    {
+      "id":"63105334906561696387"
+     ,"Identification":{
+        "Button Name":"CANCEL"
+       ,"Label":"Cancelar"
+      }
+     ,"Layout":{
+        "Sequence":10
+       ,"Region":"Buttons (63105334501394696387)"
+       ,"Position":"CLOSE"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Button Template":"Text (62607382055443989633)"
+       ,"Hot":false
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+      }
+     ,"Behavior":{
+        "Action":"Defined by Dynamic Action"
+       ,"Execute Validations":true
+      }
+    }
+   ,{
+      "id":"63105336385808696388"
+     ,"Identification":{
+        "Button Name":"DELETE"
+       ,"Label":"Deletar usu\u00E1rio"
+      }
+     ,"Layout":{
+        "Sequence":10
+       ,"Region":"Buttons (63105334501394696387)"
+       ,"Position":"DELETE"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Button Template":"Text (62607382055443989633)"
+       ,"Hot":false
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"t-Button--danger"
+        ]
+      }
+     ,"Behavior":{
+        "Action":"Submit Page"
+       ,"Execute Validations":false
+       ,"Warn on Unsaved Changes":"Do Not Check"
+       ,"Database Action":"SQL DELETE action"
+      }
+     ,"Confirmation":{
+        "Message":"\u0026APP_TEXT$DELETE_MSG!RAW."
+       ,"Style":"Danger"
+      }
+     ,"Server-side Condition":{
+        "Type":"Item is NOT NULL"
+       ,"Item":"P14_ID"
+      }
+    }
+   ,{
+      "id":"63105336707946696388"
+     ,"Identification":{
+        "Button Name":"SAVE"
+       ,"Label":"Salvar altera\u00E7\u00F5es"
+      }
+     ,"Layout":{
+        "Sequence":30
+       ,"Region":"Buttons (63105334501394696387)"
+       ,"Position":"NEXT"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Button Template":"Text (62607382055443989633)"
+       ,"Hot":true
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+      }
+     ,"Behavior":{
+        "Action":"Submit Page"
+       ,"Execute Validations":true
+       ,"Warn on Unsaved Changes":"Do Not Check"
+       ,"Database Action":"SQL UPDATE action"
+      }
+     ,"Server-side Condition":{
+        "Type":"Item is NOT NULL"
+       ,"Item":"P14_ID"
+      }
+    }
+   ,{
+      "id":"63105337113026696389"
+     ,"Identification":{
+        "Button Name":"CREATE"
+       ,"Label":"Criar"
+      }
+     ,"Layout":{
+        "Sequence":40
+       ,"Region":"Buttons (63105334501394696387)"
+       ,"Position":"NEXT"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Button Template":"Text (62607382055443989633)"
+       ,"Hot":true
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+      }
+     ,"Behavior":{
+        "Action":"Submit Page"
+       ,"Execute Validations":true
+       ,"Warn on Unsaved Changes":"Do Not Check"
+       ,"Database Action":"SQL INSERT action"
+      }
+     ,"Server-side Condition":{
+        "Type":"Item is NULL"
+       ,"Item":"P14_ID"
+      }
+    }
+   ,{
+      "id":"64786169396127651503"
+     ,"Identification":{
+        "Button Name":"DESATIVAR"
+       ,"Label":"Desativar"
+      }
+     ,"Layout":{
+        "Sequence":20
+       ,"Region":"Buttons (63105334501394696387)"
+       ,"Position":"DELETE"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Button Template":"Text (62607382055443989633)"
+       ,"Hot":false
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"t-Button--danger"
+        ]
+      }
+     ,"Behavior":{
+        "Action":"Submit Page"
+       ,"Execute Validations":true
+       ,"Warn on Unsaved Changes":"Do Not Check"
+      }
+     ,"Server-side Condition":{
+        "Type":"Item is NOT NULL"
+       ,"Item":"P14_ID"
+      }
+    }
+   ,{
+      "id":"64786169729071651507"
+     ,"Identification":{
+        "Button Name":"ATIVAR"
+       ,"Label":"Ativar"
+      }
+     ,"Layout":{
+        "Sequence":40
+       ,"Region":"Buttons (63105334501394696387)"
+       ,"Position":"DELETE"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Button Template":"Text (62607382055443989633)"
+       ,"Hot":true
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+      }
+     ,"Behavior":{
+        "Action":"Submit Page"
+       ,"Execute Validations":true
+       ,"Warn on Unsaved Changes":"Do Not Check"
+      }
+     ,"Server-side Condition":{
+        "Type":"Item is NOT NULL"
+       ,"Item":"P14_ID"
+      }
+    }
+  ]
+ ,"Dynamic Actions":[
+    {
+      "id":"63105335063205696387"
+     ,"Identification":{
+        "Name":"Cancel Dialog"
+      }
+     ,"Execution":{
+        "Sequence":10
+       ,"Event Scope":"Static"
+       ,"Type":"Immediate"
+      }
+     ,"When":{
+        "Event":"EVENT.EVENT.BROWSER.CLICK"
+       ,"Selection Type":"Button"
+       ,"Button":"CANCEL (63105334906561696387)"
+      }
+     ,"Actions":[
+        {
+          "id":"63105335835674696388"
+         ,"Identification":{
+            "Action":"Cancel Dialog"
+          }
+         ,"Execution":{
+            "Sequence":10
+           ,"Event":"Cancel Dialog (63105335063205696387)"
+           ,"Fire When Event Result Is":"True"
+           ,"Fire on Initialization":false
+          }
+        }
+      ]
+    }
+   ,{
+      "id":"64786169954705651509"
+     ,"Identification":{
+        "Name":"Alterar visibilidade"
+      }
+     ,"Execution":{
+        "Sequence":20
+       ,"Event Scope":"Static"
+       ,"Type":"Immediate"
+      }
+     ,"When":{
+        "Event":"EVENT.EVENT.BROWSER.CLICK"
+       ,"Selection Type":"Region"
+       ,"Region":"Cadastro de usu\u00E1rio (63105327250468696382)"
+      }
+     ,"Client-side Condition":{
+        "Type":"Item = Value"
+       ,"Item":"P14_ATIVO"
+       ,"Value":"S"
+      }
+     ,"Actions":[
+        {
+          "id":"64786170030535651510"
+         ,"Identification":{
+            "Action":"Show"
+          }
+         ,"Affected Elements":{
+            "Selection Type":"Button"
+           ,"Button":"DESATIVAR (64786169396127651503)"
+          }
+         ,"Execution":{
+            "Sequence":10
+           ,"Event":"Alterar visibilidade (64786169954705651509)"
+           ,"Fire When Event Result Is":"True"
+           ,"Fire on Initialization":true
+          }
+        }
+       ,{
+          "id":"64786170152397651511"
+         ,"Identification":{
+            "Action":"Hide"
+          }
+         ,"Affected Elements":{
+            "Selection Type":"Button"
+           ,"Button":"ATIVAR (64786169729071651507)"
+          }
+         ,"Execution":{
+            "Sequence":20
+           ,"Event":"Alterar visibilidade (64786169954705651509)"
+           ,"Fire When Event Result Is":"True"
+           ,"Fire on Initialization":true
+          }
+        }
+       ,{
+          "id":"64786170236229651512"
+         ,"Identification":{
+            "Action":"Show"
+          }
+         ,"Affected Elements":{
+            "Selection Type":"Button"
+           ,"Button":"ATIVAR (64786169729071651507)"
+          }
+         ,"Execution":{
+            "Sequence":10
+           ,"Event":"Alterar visibilidade (64786169954705651509)"
+           ,"Fire When Event Result Is":"False"
+           ,"Fire on Initialization":true
+          }
+        }
+       ,{
+          "id":"64786170312527651513"
+         ,"Identification":{
+            "Action":"Hide"
+          }
+         ,"Affected Elements":{
+            "Selection Type":"Button"
+           ,"Button":"DESATIVAR (64786169396127651503)"
+          }
+         ,"Execution":{
+            "Sequence":20
+           ,"Event":"Alterar visibilidade (64786169954705651509)"
+           ,"Fire When Event Result Is":"False"
+           ,"Fire on Initialization":true
+          }
+        }
+      ]
+    }
+  ]
+ ,"Validations":[
+    {
+      "id":"62615034199683543710"
+     ,"Identification":{
+        "Name":"Validar login tamanho"
+      }
+     ,"Execution":{
+        "Sequence":10
+      }
+     ,"Validation":{
+        "Type":"Expression"
+       ,"Language":"PL\/SQL"
+       ,"PL\/SQL Expression":"length(:P14_LOGIN) \u003E=5"
+       ,"Always Execute":false
+      }
+     ,"Error":{
+        "Error Message":"Login deve haver no m\u00EDnimo 5 caracteres. "
+       ,"Display Location":"Inline with Field and in Notification"
+       ,"Associated Item":"P14_LOGIN (63105327926943696383)"
+      }
+     ,"Server-side Condition":{
+        "Type":"Request is contained in Value"
+       ,"Value":"CREATE,SAVE"
+      }
+    }
+   ,{
+      "id":"62615034202085543711"
+     ,"Identification":{
+        "Name":"Validar @"
+      }
+     ,"Execution":{
+        "Sequence":20
+      }
+     ,"Validation":{
+        "Type":"Function Body (returning Boolean)"
+       ,"Language":"PL\/SQL"
+       ,"PL\/SQL Function Body":"DECLARE\n    v_frase VARCHAR2(100) := :P14_EMAIL;\n    v_posicao NUMBER;\nBEGIN\n    -- Verifica se o caractere \u0027@\u0027 est\u00E1 presente na frase\n    v_posicao := INSTR(v_frase, \u0027@\u0027);\n\n    IF v_posicao \u003E 4 THEN\n        return true;\n    ELSE\n        return false;\n    END IF;\nEND;"
+       ,"Always Execute":false
+      }
+     ,"Error":{
+        "Error Message":"Seu e-mail precisa possuir \u0027@\u0027"
+       ,"Display Location":"Inline with Field and in Notification"
+       ,"Associated Item":"P14_EMAIL (63105328767681696384)"
+      }
+    }
+   ,{
+      "id":"62615034613222543715"
+     ,"Identification":{
+        "Name":"Validar .com"
+      }
+     ,"Execution":{
+        "Sequence":70
+      }
+     ,"Validation":{
+        "Type":"Function Body (returning Boolean)"
+       ,"Language":"PL\/SQL"
+       ,"PL\/SQL Function Body":"DECLARE\n    v_frase VARCHAR2(100) := :P14_EMAIL;\n    v_posicao NUMBER;\n    v_com_length NUMBER := LENGTH(\u0027.com\u0027);\n    v_frase_length NUMBER := LENGTH(v_frase);\nBEGIN\n    v_posicao := INSTR(v_frase, \u0027.com\u0027);\n\n    IF v_posicao \u003E 7 AND v_posicao = v_frase_length - v_com_length + 1 THEN\n        return TRUE;\n    else \n    return false;    \n    END IF;\nEND;"
+       ,"Always Execute":false
+      }
+     ,"Error":{
+        "Error Message":"E-mail inv\u00E1lido, seu e-mail precisa terminar com \u0027.com\u0027"
+       ,"Display Location":"Inline with Field and in Notification"
+       ,"Associated Item":"P14_EMAIL (63105328767681696384)"
+      }
+    }
+   ,{
+      "id":"64786170606224651516"
+     ,"Identification":{
+        "Name":"Validar letra Mm"
+      }
+     ,"Execution":{
+        "Sequence":40
+      }
+     ,"Validation":{
+        "Type":"Function Body (returning Boolean)"
+       ,"Language":"PL\/SQL"
+       ,"PL\/SQL Function Body":"DECLARE\n    v_string VARCHAR2(100) := :P14_SENHA;\n    v_char   CHAR(1);\n    v_pos    NUMBER;\n    v_count number :=0; \n\nBEGIN\n    -- Verifica se h\u00E1 letras mai\u00FAsculas na string\n    FOR i IN 65..90 LOOP -- c\u00F3digo ASCII para letras mai\u00FAsculas\n        v_char := CHR(i);\n        v_pos := INSTR(v_string, v_char);\n        IF v_pos \u003E 0 THEN\n            v_count := v_count +1;\n        END IF;\n    END LOOP;\n\n    -- Verifica se h\u00E1 letras min\u00FAsculas na string\n    FOR i IN 97..122 LOOP -- c\u00F3digo ASCII para letras min\u00FAsculas\n        v_char := CHR(i);\n        v_pos := INSTR(v_string, v_char);\n        IF v_pos \u003E 0 THEN\n            v_count := v_count +1;\n        END IF;\n    END LOOP;\n\n    if v_count = 2 then\n        return true;\n    else \n    return false;\n    end if;\nEND;"
+       ,"Always Execute":false
+      }
+     ,"Error":{
+        "Error Message":"Senha inv\u00E1lida, deve conter uma letra mai\u00FAscula e min\u00FAscula"
+       ,"Display Location":"Inline with Field and in Notification"
+       ,"Associated Item":"P14_SENHA (63105331175245696385)"
+      }
+     ,"Server-side Condition":{
+        "Type":"Request is contained in Value"
+       ,"Value":"CREATE,SAVE"
+      }
+    }
+   ,{
+      "id":"64786170747647651517"
+     ,"Identification":{
+        "Name":"Validar tamanho"
+      }
+     ,"Execution":{
+        "Sequence":50
+      }
+     ,"Validation":{
+        "Type":"Expression"
+       ,"Language":"PL\/SQL"
+       ,"PL\/SQL Expression":"length(:P14_SENHA) \u003E=8;"
+       ,"Always Execute":false
+      }
+     ,"Error":{
+        "Error Message":"Sua senha deve conter no m\u00EDnimo 8 caracteres"
+       ,"Display Location":"Inline with Field and in Notification"
+       ,"Associated Item":"P14_SENHA (63105331175245696385)"
+      }
+    }
+   ,{
+      "id":"64786170854397651518"
+     ,"Identification":{
+        "Name":"Validar caracter"
+      }
+     ,"Execution":{
+        "Sequence":60
+      }
+     ,"Validation":{
+        "Type":"Function Body (returning Boolean)"
+       ,"Language":"PL\/SQL"
+       ,"PL\/SQL Function Body":"DECLARE\n    v_count NUMBER;\nBEGIN\n    -- Conta o n\u00FAmero de ocorr\u00EAncias de caracteres especiais na string\n    SELECT REGEXP_COUNT(:P14_SENHA, \u0027[[:punct:]]\u0027) INTO v_count FROM DUAL;\n\n    IF v_count \u003E 0 THEN\n        return true;\n    ELSE\n        return false;\n    END IF;\nEND;"
+       ,"Always Execute":false
+      }
+     ,"Error":{
+        "Error Message":"Sua senha deve conter um caractere especial"
+       ,"Display Location":"Inline with Field and in Notification"
+       ,"Associated Item":"P14_SENHA (63105331175245696385)"
+      }
+    }
+  ]
+ ,"Processes":[
+    {
+      "id":"63105337568174696389"
+     ,"Identification":{
+        "Name":"Initialize form Cadastro de usu\u00E1rio"
+       ,"Type":"Form - Initialization"
+       ,"Execution Chain":"None"
+       ,"Form Region":"Cadastro de usu\u00E1rio (63105327250468696382)"
+      }
+     ,"Execution":{
+        "Sequence":10
+       ,"Point":"Before Header"
+       ,"Run Process":"Once Per Page Visit (default)"
+      }
+    }
+   ,{
+      "id":"63105337928526696389"
+     ,"Identification":{
+        "Name":"Process form Cadastro de usu\u00E1rio"
+       ,"Type":"Form - Automatic Row Processing (DML)"
+       ,"Execution Chain":"None"
+       ,"Form Region":"Cadastro de usu\u00E1rio (63105327250468696382)"
+      }
+     ,"Settings":{
+        "Target Type":"Region Source"
+       ,"Prevent Lost Updates":true
+       ,"Lock Row":"Yes"
+       ,"Return Primary Key(s) after Insert":true
+      }
+     ,"Execution":{
+        "Sequence":10
+       ,"Point":"Processing"
+       ,"Run Process":"Once Per Page Visit (default)"
+      }
+     ,"Error":{
+        "Display Location":"Inline in Notification"
+      }
+    }
+   ,{
+      "id":"63105338386550696389"
+     ,"Identification":{
+        "Name":"Close Dialog"
+       ,"Type":"Close Dialog"
+       ,"Execution Chain":"None"
+      }
+     ,"Settings":{
+        "Show Success Messages":true
+      }
+     ,"Execution":{
+        "Sequence":50
+       ,"Point":"Processing"
+       ,"Run Process":"Once Per Page Visit (default)"
+      }
+     ,"Error":{
+        "Display Location":"Inline in Notification"
+      }
+     ,"Server-side Condition":{
+        "Type":"Request is contained in Value"
+       ,"Value":"CREATE,SAVE,DELETE"
+      }
+    }
+   ,{
+      "id":"64786169634339651506"
+     ,"Identification":{
+        "Name":"Desativar"
+       ,"Type":"Execute Code"
+       ,"Execution Chain":"None"
+      }
+     ,"Source":{
+        "Location":"Local Database"
+       ,"Language":"PL\/SQL"
+       ,"PL\/SQL Code":"UPDATE ERP_USUARIO\nSET ATIVO = CASE WHEN ATIVO = \u0027S\u0027 THEN \u0027N\u0027 ELSE \u0027N\u0027 END\nWHERE ID = :P14_ID;\n"
+      }
+     ,"Execution":{
+        "Sequence":10
+       ,"Point":"Processing"
+       ,"Run Process":"Once Per Page Visit (default)"
+      }
+     ,"Error":{
+        "Display Location":"Inline in Notification"
+      }
+     ,"Server-side Condition":{
+        "When Button Pressed":"DESATIVAR (64786169396127651503)"
+      }
+    }
+   ,{
+      "id":"64786169838335651508"
+     ,"Identification":{
+        "Name":"ATIVAR"
+       ,"Type":"Execute Code"
+       ,"Execution Chain":"None"
+      }
+     ,"Source":{
+        "Location":"Local Database"
+       ,"Language":"PL\/SQL"
+       ,"PL\/SQL Code":"UPDATE ERP_USUARIO\nSET ATIVO = CASE WHEN ATIVO = \u0027N\u0027 THEN \u0027S\u0027 ELSE \u0027S\u0027 END\nWHERE ID = :P14_ID;\n"
+      }
+     ,"Execution":{
+        "Sequence":10
+       ,"Point":"Processing"
+       ,"Run Process":"Once Per Page Visit (default)"
+      }
+     ,"Error":{
+        "Display Location":"Inline in Notification"
+      }
+     ,"Server-side Condition":{
+        "When Button Pressed":"ATIVAR (64786169729071651507)"
+      }
+    }
+  ]
+}

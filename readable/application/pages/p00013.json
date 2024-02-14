@@ -1,0 +1,671 @@
+{
+  "id":"13"
+ ,"Identification":{
+    "Name":"Cadastro de Estado"
+   ,"Alias":"CADASTRO-DE-ESTADO"
+   ,"Title":"Cadastro de Estado"
+  }
+ ,"Appearance":{
+    "Page Mode":"Modal Dialog"
+   ,"Dialog Template":"Theme Default"
+   ,"Template Options":[
+      "#DEFAULT#"
+    ]
+  }
+ ,"Dialog":{
+    "Chained":false
+  }
+ ,"Navigation Menu":{
+    "Override User Interface Level":false
+  }
+ ,"Navigation":{
+    "Cursor Focus":"Do not focus cursor"
+   ,"Warn on Unsaved Changes":true
+  }
+ ,"Security":{
+    "Authentication":"Page Requires Authentication"
+   ,"Deep Linking":"Application Default"
+   ,"Page Access Protection":"Arguments Must Have Checksum"
+   ,"Form Auto Complete":"Off"
+   ,"Browser Cache":"Application Default"
+  }
+ ,"Session Management":{
+    "Rejoin Sessions":"Application Default"
+  }
+ ,"Advanced":{
+    "Enable duplicate page submissions":"Yes - Enable page to be re-posted"
+   ,"Reload on Submit":"Only for Success"
+  }
+ ,"Server Cache":{
+    "Caching":"Disabled"
+  }
+ ,"Regions":[
+    {
+      "id":"62803231089281997149"
+     ,"Identification":{
+        "Title":"Cadastro de Estado"
+       ,"Type":"Form"
+      }
+     ,"Source":{
+        "Location":"Local Database"
+       ,"Type":"Table \/ View"
+       ,"Table Owner":"Parsing Schema"
+       ,"Table Name":"ERP_ESTADO"
+       ,"Include ROWID Column":false
+      }
+     ,"Layout":{
+        "Sequence":10
+       ,"Parent Region":"No Parent"
+       ,"Position":"BODY"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Template":"Blank with Attributes (62607242239143989576)"
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Edit":{
+          "Enabled":true
+         ,"Allowed Operations":[
+            "Add Row"
+           ,"Update Row"
+           ,"Delete Row"
+          ]
+         ,"Lost Update Type":"Row Values"
+        }
+      }
+    }
+   ,{
+      "id":"62803236347676997153"
+     ,"Identification":{
+        "Title":"Buttons"
+       ,"Type":"Static Content"
+      }
+     ,"Layout":{
+        "Sequence":20
+       ,"Parent Region":"No Parent"
+       ,"Position":"REGION_POSITION_03"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Template":"Buttons Container (62607245031339989577)"
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Settings":{
+          "Output As":"Text (escape special characters)"
+         ,"Show Line Breaks":true
+        }
+      }
+    }
+  ]
+ ,"Page Items":[
+    {
+      "id":"62803231366720997150"
+     ,"Identification":{
+        "Name":"P13_ID"
+       ,"Type":"Hidden"
+      }
+     ,"Settings":{
+        "Value Protected":true
+      }
+     ,"Layout":{
+        "Sequence":10
+       ,"Region":"Cadastro de Estado (62803231089281997149)"
+       ,"Position":"BODY"
+      }
+     ,"Advanced":{
+        "Warn on Unsaved Changes":"Page Default"
+      }
+     ,"Source":{
+        "Form Region":"Cadastro de Estado (62803231089281997149)"
+       ,"Column":"ID"
+       ,"Data Type":"NUMBER"
+       ,"Query Only":true
+       ,"Primary Key":true
+      }
+     ,"Session State":{
+        "Data Type":"VARCHAR2"
+       ,"Storage":"Per Request (Memory Only)"
+      }
+     ,"Security":{
+        "Session State Protection":"Checksum Required - Session Level"
+       ,"Store value encrypted in session state":true
+       ,"Restricted Characters":"All characters can be saved."
+      }
+    }
+   ,{
+      "id":"62803231725686997150"
+     ,"Identification":{
+        "Name":"P13_NOME"
+       ,"Type":"Text Field"
+      }
+     ,"Label":{
+        "Label":"Nome"
+       ,"Alignment":"Right"
+      }
+     ,"Settings":{
+        "Subtype":"Text"
+       ,"Trim Spaces":"None"
+       ,"Text Case":"NO CHANGE"
+       ,"Submit when Enter pressed":false
+       ,"Disabled":false
+      }
+     ,"Layout":{
+        "Sequence":20
+       ,"Region":"Cadastro de Estado (62803231089281997149)"
+       ,"Position":"BODY"
+       ,"Alignment":"Left"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+       ,"Label Column Span":"Page Template Default"
+      }
+     ,"Appearance":{
+        "Template":"Required - Floating (62607380865936989632)"
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+       ,"Width":32
+      }
+     ,"Validation":{
+        "Value Required":true
+       ,"Maximum Length":200
+      }
+     ,"Advanced":{
+        "Warn on Unsaved Changes":"Page Default"
+      }
+     ,"Source":{
+        "Form Region":"Cadastro de Estado (62803231089281997149)"
+       ,"Column":"NOME"
+       ,"Data Type":"VARCHAR2"
+       ,"Query Only":false
+       ,"Primary Key":false
+      }
+     ,"Session State":{
+        "Storage":"Per Request (Memory Only)"
+      }
+     ,"Quick Picks":{
+        "Show Quick Picks":false
+      }
+     ,"Security":{
+        "Session State Protection":"Unrestricted"
+       ,"Store value encrypted in session state":true
+       ,"Restricted Characters":"All characters can be saved."
+      }
+    }
+   ,{
+      "id":"62803232120326997151"
+     ,"Identification":{
+        "Name":"P13_UF"
+       ,"Type":"Text Field"
+      }
+     ,"Label":{
+        "Label":"UF"
+       ,"Alignment":"Left"
+      }
+     ,"Settings":{
+        "Subtype":"Text"
+       ,"Trim Spaces":"None"
+       ,"Text Case":"NO CHANGE"
+       ,"Submit when Enter pressed":false
+       ,"Disabled":false
+      }
+     ,"Layout":{
+        "Sequence":30
+       ,"Region":"Cadastro de Estado (62803231089281997149)"
+       ,"Position":"BODY"
+       ,"Alignment":"Left"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+       ,"Label Column Span":"Page Template Default"
+      }
+     ,"Appearance":{
+        "Template":"Required - Floating (62607380865936989632)"
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+       ,"Width":32
+      }
+     ,"Validation":{
+        "Value Required":true
+       ,"Maximum Length":2
+      }
+     ,"Advanced":{
+        "Warn on Unsaved Changes":"Page Default"
+      }
+     ,"Source":{
+        "Form Region":"Cadastro de Estado (62803231089281997149)"
+       ,"Column":"UF"
+       ,"Data Type":"VARCHAR2"
+       ,"Query Only":false
+       ,"Primary Key":false
+      }
+     ,"Session State":{
+        "Storage":"Per Request (Memory Only)"
+      }
+     ,"Quick Picks":{
+        "Show Quick Picks":false
+      }
+     ,"Security":{
+        "Session State Protection":"Unrestricted"
+       ,"Store value encrypted in session state":true
+       ,"Restricted Characters":"All characters can be saved."
+      }
+    }
+   ,{
+      "id":"62803232559054997151"
+     ,"Identification":{
+        "Name":"P13_DATA_CRIACAO"
+       ,"Type":"Hidden"
+      }
+     ,"Settings":{
+        "Value Protected":true
+      }
+     ,"Layout":{
+        "Sequence":40
+       ,"Region":"Cadastro de Estado (62803231089281997149)"
+       ,"Position":"BODY"
+      }
+     ,"Advanced":{
+        "Warn on Unsaved Changes":"Page Default"
+      }
+     ,"Source":{
+        "Form Region":"Cadastro de Estado (62803231089281997149)"
+       ,"Column":"DATA_CRIACAO"
+       ,"Data Type":"DATE"
+       ,"Query Only":false
+       ,"Primary Key":false
+      }
+     ,"Session State":{
+        "Data Type":"VARCHAR2"
+       ,"Storage":"Per Request (Memory Only)"
+      }
+     ,"Security":{
+        "Session State Protection":"Unrestricted"
+       ,"Store value encrypted in session state":true
+       ,"Restricted Characters":"All characters can be saved."
+      }
+    }
+   ,{
+      "id":"62803232942278997151"
+     ,"Identification":{
+        "Name":"P13_DATA_ATUALIZACAO"
+       ,"Type":"Hidden"
+      }
+     ,"Settings":{
+        "Value Protected":true
+      }
+     ,"Layout":{
+        "Sequence":50
+       ,"Region":"Cadastro de Estado (62803231089281997149)"
+       ,"Position":"BODY"
+      }
+     ,"Advanced":{
+        "Warn on Unsaved Changes":"Page Default"
+      }
+     ,"Source":{
+        "Form Region":"Cadastro de Estado (62803231089281997149)"
+       ,"Column":"DATA_ATUALIZACAO"
+       ,"Data Type":"DATE"
+       ,"Query Only":false
+       ,"Primary Key":false
+      }
+     ,"Session State":{
+        "Data Type":"VARCHAR2"
+       ,"Storage":"Per Request (Memory Only)"
+      }
+     ,"Security":{
+        "Session State Protection":"Unrestricted"
+       ,"Store value encrypted in session state":true
+       ,"Restricted Characters":"All characters can be saved."
+      }
+    }
+   ,{
+      "id":"62803233313307997152"
+     ,"Identification":{
+        "Name":"P13_ATUALIZADO_POR"
+       ,"Type":"Hidden"
+      }
+     ,"Settings":{
+        "Value Protected":true
+      }
+     ,"Layout":{
+        "Sequence":60
+       ,"Region":"Cadastro de Estado (62803231089281997149)"
+       ,"Position":"BODY"
+      }
+     ,"Advanced":{
+        "Warn on Unsaved Changes":"Page Default"
+      }
+     ,"Source":{
+        "Form Region":"Cadastro de Estado (62803231089281997149)"
+       ,"Column":"ATUALIZADO_POR"
+       ,"Data Type":"VARCHAR2"
+       ,"Query Only":false
+       ,"Primary Key":false
+      }
+     ,"Session State":{
+        "Data Type":"VARCHAR2"
+       ,"Storage":"Per Request (Memory Only)"
+      }
+     ,"Security":{
+        "Session State Protection":"Unrestricted"
+       ,"Store value encrypted in session state":true
+       ,"Restricted Characters":"All characters can be saved."
+      }
+    }
+   ,{
+      "id":"62803233782000997152"
+     ,"Identification":{
+        "Name":"P13_CRIADO_POR"
+       ,"Type":"Hidden"
+      }
+     ,"Settings":{
+        "Value Protected":true
+      }
+     ,"Layout":{
+        "Sequence":70
+       ,"Region":"Cadastro de Estado (62803231089281997149)"
+       ,"Position":"BODY"
+      }
+     ,"Advanced":{
+        "Warn on Unsaved Changes":"Page Default"
+      }
+     ,"Source":{
+        "Form Region":"Cadastro de Estado (62803231089281997149)"
+       ,"Column":"CRIADO_POR"
+       ,"Data Type":"VARCHAR2"
+       ,"Query Only":false
+       ,"Primary Key":false
+      }
+     ,"Session State":{
+        "Data Type":"VARCHAR2"
+       ,"Storage":"Per Request (Memory Only)"
+      }
+     ,"Security":{
+        "Session State Protection":"Unrestricted"
+       ,"Store value encrypted in session state":true
+       ,"Restricted Characters":"All characters can be saved."
+      }
+    }
+  ]
+ ,"Buttons":[
+    {
+      "id":"62803236706266997154"
+     ,"Identification":{
+        "Button Name":"CANCEL"
+       ,"Label":"Cancelar"
+      }
+     ,"Layout":{
+        "Sequence":10
+       ,"Region":"Buttons (62803236347676997153)"
+       ,"Position":"CLOSE"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Button Template":"Text (62607382055443989633)"
+       ,"Hot":false
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+      }
+     ,"Behavior":{
+        "Action":"Defined by Dynamic Action"
+       ,"Execute Validations":true
+      }
+    }
+   ,{
+      "id":"62803238138649997155"
+     ,"Identification":{
+        "Button Name":"DELETE"
+       ,"Label":"Deletar"
+      }
+     ,"Layout":{
+        "Sequence":20
+       ,"Region":"Buttons (62803236347676997153)"
+       ,"Position":"DELETE"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Button Template":"Text (62607382055443989633)"
+       ,"Hot":false
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"t-Button--danger"
+        ]
+      }
+     ,"Behavior":{
+        "Action":"Submit Page"
+       ,"Execute Validations":false
+       ,"Warn on Unsaved Changes":"Do Not Check"
+       ,"Database Action":"SQL DELETE action"
+      }
+     ,"Confirmation":{
+        "Message":"\u0026APP_TEXT$DELETE_MSG!RAW."
+       ,"Style":"Danger"
+      }
+     ,"Server-side Condition":{
+        "Type":"Item is NOT NULL"
+       ,"Item":"P13_ID"
+      }
+    }
+   ,{
+      "id":"62803238581305997155"
+     ,"Identification":{
+        "Button Name":"SAVE"
+       ,"Label":"Salvar"
+      }
+     ,"Layout":{
+        "Sequence":30
+       ,"Region":"Buttons (62803236347676997153)"
+       ,"Position":"NEXT"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Button Template":"Text (62607382055443989633)"
+       ,"Hot":true
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+      }
+     ,"Behavior":{
+        "Action":"Submit Page"
+       ,"Execute Validations":true
+       ,"Warn on Unsaved Changes":"Do Not Check"
+       ,"Database Action":"SQL UPDATE action"
+      }
+     ,"Server-side Condition":{
+        "Type":"Item is NOT NULL"
+       ,"Item":"P13_ID"
+      }
+    }
+   ,{
+      "id":"62803238984104997155"
+     ,"Identification":{
+        "Button Name":"CREATE"
+       ,"Label":"Criar"
+      }
+     ,"Layout":{
+        "Sequence":40
+       ,"Region":"Buttons (62803236347676997153)"
+       ,"Position":"NEXT"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Button Template":"Text (62607382055443989633)"
+       ,"Hot":true
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+      }
+     ,"Behavior":{
+        "Action":"Submit Page"
+       ,"Execute Validations":true
+       ,"Warn on Unsaved Changes":"Do Not Check"
+       ,"Database Action":"SQL INSERT action"
+      }
+     ,"Server-side Condition":{
+        "Type":"Item is NULL"
+       ,"Item":"P13_ID"
+      }
+    }
+  ]
+ ,"Dynamic Actions":[
+    {
+      "id":"62803236846932997154"
+     ,"Identification":{
+        "Name":"Cancel Dialog"
+      }
+     ,"Execution":{
+        "Sequence":10
+       ,"Event Scope":"Static"
+       ,"Type":"Immediate"
+      }
+     ,"When":{
+        "Event":"EVENT.EVENT.BROWSER.CLICK"
+       ,"Selection Type":"Button"
+       ,"Button":"CANCEL (62803236706266997154)"
+      }
+     ,"Actions":[
+        {
+          "id":"62803237671970997154"
+         ,"Identification":{
+            "Action":"Cancel Dialog"
+          }
+         ,"Execution":{
+            "Sequence":10
+           ,"Event":"Cancel Dialog (62803236846932997154)"
+           ,"Fire When Event Result Is":"True"
+           ,"Fire on Initialization":false
+          }
+        }
+      ]
+    }
+  ]
+ ,"Processes":[
+    {
+      "id":"62803239306077997155"
+     ,"Identification":{
+        "Name":"Initialize form Cadastro de Estado"
+       ,"Type":"Form - Initialization"
+       ,"Execution Chain":"None"
+       ,"Form Region":"Cadastro de Estado (62803231089281997149)"
+      }
+     ,"Execution":{
+        "Sequence":10
+       ,"Point":"Before Header"
+       ,"Run Process":"Once Per Page Visit (default)"
+      }
+    }
+   ,{
+      "id":"62803239776963997156"
+     ,"Identification":{
+        "Name":"Process form Cadastro de Estado"
+       ,"Type":"Form - Automatic Row Processing (DML)"
+       ,"Execution Chain":"None"
+       ,"Form Region":"Cadastro de Estado (62803231089281997149)"
+      }
+     ,"Settings":{
+        "Target Type":"Region Source"
+       ,"Prevent Lost Updates":true
+       ,"Lock Row":"Yes"
+       ,"Return Primary Key(s) after Insert":true
+      }
+     ,"Execution":{
+        "Sequence":10
+       ,"Point":"Processing"
+       ,"Run Process":"Once Per Page Visit (default)"
+      }
+     ,"Error":{
+        "Display Location":"Inline in Notification"
+      }
+    }
+   ,{
+      "id":"62803240130459997156"
+     ,"Identification":{
+        "Name":"Close Dialog"
+       ,"Type":"Close Dialog"
+       ,"Execution Chain":"None"
+      }
+     ,"Settings":{
+        "Show Success Messages":true
+      }
+     ,"Execution":{
+        "Sequence":50
+       ,"Point":"Processing"
+       ,"Run Process":"Once Per Page Visit (default)"
+      }
+     ,"Error":{
+        "Display Location":"Inline in Notification"
+      }
+     ,"Server-side Condition":{
+        "Type":"Request is contained in Value"
+       ,"Value":"CREATE,SAVE,DELETE"
+      }
+    }
+  ]
+}

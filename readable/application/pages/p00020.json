@@ -1,0 +1,674 @@
+{
+  "id":"20"
+ ,"Identification":{
+    "Name":"Filiais"
+   ,"Alias":"FILIAIS"
+   ,"Title":"Filiais"
+  }
+ ,"Appearance":{
+    "Page Mode":"Normal"
+   ,"Page Template":"Theme Default"
+   ,"Template Options":[
+      "#DEFAULT#"
+    ]
+  }
+ ,"Navigation Menu":{
+    "Override User Interface Level":false
+  }
+ ,"Navigation":{
+    "Cursor Focus":"Do not focus cursor"
+   ,"Warn on Unsaved Changes":true
+  }
+ ,"Security":{
+    "Authentication":"Page Requires Authentication"
+   ,"Deep Linking":"Application Default"
+   ,"Page Access Protection":"Arguments Must Have Checksum"
+   ,"Form Auto Complete":"Off"
+   ,"Browser Cache":"Application Default"
+  }
+ ,"Session Management":{
+    "Rejoin Sessions":"Application Default"
+  }
+ ,"Advanced":{
+    "Enable duplicate page submissions":"Yes - Enable page to be re-posted"
+   ,"Reload on Submit":"Only for Success"
+  }
+ ,"Server Cache":{
+    "Caching":"Disabled"
+  }
+ ,"Regions":[
+    {
+      "id":"63194535078976890008"
+     ,"Identification":{
+        "Title":"Filiais"
+       ,"Type":"Interactive Report"
+      }
+     ,"Source":{
+        "Location":"Local Database"
+       ,"Type":"Table \/ View"
+       ,"Table Owner":"Parsing Schema"
+       ,"Table Name":"ERP_FILIAL"
+       ,"Include ROWID Column":false
+      }
+     ,"Layout":{
+        "Sequence":10
+       ,"Parent Region":"No Parent"
+       ,"Position":"BODY"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Template":"Interactive Report (62607299016293989599)"
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "id":"63194535197254890008"
+       ,"Link":{
+          "Link Column":"Link to Custom Target"
+         ,"Target":{
+            "url":"f?p=\u0026APP_ID.:21:\u0026APP_SESSION.::\u0026DEBUG.:RP:P21_ID:\u005C#ID#\u005C"
+           ,"Page":"21"
+           ,"Clear Cache":"RP"
+           ,"Values":{
+              "P21_ID":"#ID#"
+            }
+          }
+         ,"Link Icon":"\u003Cspan role=\"img\" aria-label=\"Edit\" class=\"fa fa-edit\" title=\"Edit\"\u003E\u003C\/span\u003E"
+        }
+       ,"Pagination":{
+          "Type":"Row Ranges X to Y"
+         ,"Display Position":"Bottom - Right"
+        }
+       ,"Performance":{
+          "Lazy Loading":false
+        }
+       ,"Messages":{
+          "When No Data Found":"No data found."
+         ,"When More Data Found":"The maximum row count for this report is #MAX_ROW_COUNT# rows.  Please apply a filter to reduce the number of records in your query."
+        }
+       ,"Search Bar":{
+          "Include Search Bar":true
+         ,"Search Field":true
+         ,"Finder Drop Down":true
+         ,"Reports Select List":true
+         ,"Rows Per Page Selector":false
+        }
+       ,"Actions Menu":{
+          "Include Actions Menu":true
+         ,"Filter":true
+         ,"Select Columns":true
+         ,"Rows Per Page":true
+         ,"Sort":true
+         ,"Control Break":true
+         ,"Highlight":true
+         ,"Compute":true
+         ,"Aggregate":true
+         ,"Chart":true
+         ,"Group By":true
+         ,"Pivot":true
+         ,"Flashback":true
+         ,"Save Report":true
+         ,"Save Public Report":false
+         ,"Reset":true
+         ,"Help":true
+         ,"Download":true
+         ,"Subscription":true
+        }
+       ,"Download":{
+          "Formats":[
+            "CSV"
+           ,"HTML"
+           ,"Excel"
+           ,"PDF"
+          ]
+         ,"Send as Email":true
+        }
+       ,"Heading":{
+          "Fixed To":"Page"
+        }
+       ,"Icon View":{
+          "Show":false
+        }
+       ,"Detail View":{
+          "Show":false
+        }
+       ,"Saved Reports":[
+          {
+            "id":"63194575408084895255"
+           ,"Identification":{
+              "Name":"Primary Report"
+             ,"Alias":"631945755"
+            }
+          }
+        ]
+       ,"Columns":[
+          {
+            "id":"42360817068171512340"
+           ,"Identification":{
+              "Column Name":"ID"
+             ,"Type":"Plain Text"
+            }
+           ,"Heading":{
+              "Heading":"Id"
+             ,"Alignment":"end"
+            }
+           ,"Single Row View":{
+              "Use Column Heading":true
+            }
+           ,"Layout":{
+              "Sequence":10
+             ,"Column Alignment":"end"
+            }
+           ,"Accessibility":{
+              "Value Identifies Row":false
+            }
+           ,"Source":{
+              "Primary Key":true
+            }
+           ,"Column Filter":{
+              "Type":"Default Based on Column Type"
+            }
+           ,"Enable Users To":{
+              "Hide":true
+             ,"Sort":true
+             ,"Filter":true
+             ,"Highlight":true
+             ,"Control Break":true
+             ,"Aggregate":true
+             ,"Compute":true
+             ,"Chart":true
+             ,"Group By":true
+             ,"Pivot":true
+            }
+           ,"Security":{
+              "Escape special characters":true
+            }
+          }
+         ,{
+            "id":"63194536272938890009"
+           ,"Identification":{
+              "Column Name":"NOME"
+             ,"Type":"Plain Text"
+            }
+           ,"Heading":{
+              "Heading":"Nome"
+             ,"Alignment":"start"
+            }
+           ,"Single Row View":{
+              "Use Column Heading":true
+            }
+           ,"Layout":{
+              "Sequence":20
+             ,"Column Alignment":"start"
+            }
+           ,"Accessibility":{
+              "Value Identifies Row":false
+            }
+           ,"Source":{
+              "Primary Key":false
+            }
+           ,"Column Filter":{
+              "Type":"Default Based on Column Type"
+            }
+           ,"Enable Users To":{
+              "Hide":true
+             ,"Sort":true
+             ,"Filter":true
+             ,"Highlight":true
+             ,"Control Break":true
+             ,"Aggregate":true
+             ,"Compute":true
+             ,"Chart":true
+             ,"Group By":true
+             ,"Pivot":true
+            }
+           ,"Security":{
+              "Escape special characters":true
+            }
+          }
+         ,{
+            "id":"63194536676847890010"
+           ,"Identification":{
+              "Column Name":"CNPJ"
+             ,"Type":"Plain Text"
+            }
+           ,"Heading":{
+              "Heading":"CNPJ"
+             ,"Alignment":"start"
+            }
+           ,"Single Row View":{
+              "Use Column Heading":true
+            }
+           ,"Layout":{
+              "Sequence":30
+             ,"Column Alignment":"start"
+            }
+           ,"Accessibility":{
+              "Value Identifies Row":false
+            }
+           ,"Column Formatting":{
+              "HTML Expression":"\u003Cspan data-mask=\"00.000.000\/0000-00\"\u003E#CNPJ#\u003C\/span\u003E"
+            }
+           ,"Source":{
+              "Primary Key":false
+            }
+           ,"Column Filter":{
+              "Type":"Default Based on Column Type"
+            }
+           ,"Enable Users To":{
+              "Hide":true
+             ,"Sort":true
+             ,"Filter":true
+             ,"Highlight":true
+             ,"Control Break":true
+             ,"Aggregate":true
+             ,"Compute":true
+             ,"Chart":true
+             ,"Group By":true
+             ,"Pivot":true
+            }
+           ,"Security":{
+              "Escape special characters":true
+            }
+          }
+         ,{
+            "id":"63194537044027890010"
+           ,"Identification":{
+              "Column Name":"ATIVO"
+             ,"Type":"Plain Text (based on List of Values)"
+            }
+           ,"List of Values":{
+              "List of Values":"SIM_NAO (63226980631925005549)"
+            }
+           ,"Heading":{
+              "Heading":"Ativo"
+             ,"Alignment":"start"
+            }
+           ,"Single Row View":{
+              "Use Column Heading":true
+            }
+           ,"Layout":{
+              "Sequence":40
+             ,"Column Alignment":"start"
+            }
+           ,"Accessibility":{
+              "Value Identifies Row":false
+            }
+           ,"Source":{
+              "Primary Key":false
+            }
+           ,"Column Filter":{
+              "Type":"Use Named List of Values to Filter Exact Match"
+            }
+           ,"Enable Users To":{
+              "Hide":true
+             ,"Sort":true
+             ,"Filter":true
+             ,"Highlight":true
+             ,"Control Break":true
+             ,"Aggregate":true
+             ,"Compute":true
+             ,"Chart":true
+             ,"Group By":true
+             ,"Pivot":true
+            }
+          }
+         ,{
+            "id":"63194537405693890010"
+           ,"Identification":{
+              "Column Name":"DATA_CRIACAO"
+             ,"Type":"Plain Text"
+            }
+           ,"Heading":{
+              "Heading":"Data cria\u00E7\u00E3o"
+             ,"Alignment":"start"
+            }
+           ,"Single Row View":{
+              "Use Column Heading":true
+            }
+           ,"Layout":{
+              "Sequence":50
+             ,"Column Alignment":"start"
+            }
+           ,"Accessibility":{
+              "Value Identifies Row":false
+            }
+           ,"Source":{
+              "Primary Key":false
+            }
+           ,"Column Filter":{
+              "Type":"Default Based on Column Type"
+             ,"Date Ranges":"All"
+            }
+           ,"Enable Users To":{
+              "Hide":true
+             ,"Sort":true
+             ,"Filter":true
+             ,"Highlight":true
+             ,"Control Break":true
+             ,"Aggregate":true
+             ,"Compute":true
+             ,"Chart":true
+             ,"Group By":true
+             ,"Pivot":true
+            }
+           ,"Security":{
+              "Escape special characters":true
+            }
+          }
+         ,{
+            "id":"63194537801872890010"
+           ,"Identification":{
+              "Column Name":"DATA_ATUALIZACAO"
+             ,"Type":"Plain Text"
+            }
+           ,"Heading":{
+              "Heading":"Data atualiza\u00E7\u00E3o"
+             ,"Alignment":"start"
+            }
+           ,"Single Row View":{
+              "Use Column Heading":true
+            }
+           ,"Layout":{
+              "Sequence":60
+             ,"Column Alignment":"start"
+            }
+           ,"Accessibility":{
+              "Value Identifies Row":false
+            }
+           ,"Source":{
+              "Primary Key":false
+            }
+           ,"Column Filter":{
+              "Type":"Default Based on Column Type"
+             ,"Date Ranges":"All"
+            }
+           ,"Enable Users To":{
+              "Hide":true
+             ,"Sort":true
+             ,"Filter":true
+             ,"Highlight":true
+             ,"Control Break":true
+             ,"Aggregate":true
+             ,"Compute":true
+             ,"Chart":true
+             ,"Group By":true
+             ,"Pivot":true
+            }
+           ,"Security":{
+              "Escape special characters":true
+            }
+          }
+         ,{
+            "id":"63194538298282890011"
+           ,"Identification":{
+              "Column Name":"CRIADO_POR"
+             ,"Type":"Plain Text"
+            }
+           ,"Heading":{
+              "Heading":"Criado por"
+             ,"Alignment":"start"
+            }
+           ,"Single Row View":{
+              "Use Column Heading":true
+            }
+           ,"Layout":{
+              "Sequence":70
+             ,"Column Alignment":"start"
+            }
+           ,"Accessibility":{
+              "Value Identifies Row":false
+            }
+           ,"Source":{
+              "Primary Key":false
+            }
+           ,"Column Filter":{
+              "Type":"Default Based on Column Type"
+            }
+           ,"Enable Users To":{
+              "Hide":true
+             ,"Sort":true
+             ,"Filter":true
+             ,"Highlight":true
+             ,"Control Break":true
+             ,"Aggregate":true
+             ,"Compute":true
+             ,"Chart":true
+             ,"Group By":true
+             ,"Pivot":true
+            }
+           ,"Security":{
+              "Escape special characters":true
+            }
+          }
+         ,{
+            "id":"63194538640598890011"
+           ,"Identification":{
+              "Column Name":"ATUALIZADO_POR"
+             ,"Type":"Plain Text"
+            }
+           ,"Heading":{
+              "Heading":"Atualizado por"
+             ,"Alignment":"start"
+            }
+           ,"Single Row View":{
+              "Use Column Heading":true
+            }
+           ,"Layout":{
+              "Sequence":80
+             ,"Column Alignment":"start"
+            }
+           ,"Accessibility":{
+              "Value Identifies Row":false
+            }
+           ,"Source":{
+              "Primary Key":false
+            }
+           ,"Column Filter":{
+              "Type":"Default Based on Column Type"
+            }
+           ,"Enable Users To":{
+              "Hide":true
+             ,"Sort":true
+             ,"Filter":true
+             ,"Highlight":true
+             ,"Control Break":true
+             ,"Aggregate":true
+             ,"Compute":true
+             ,"Chart":true
+             ,"Group By":true
+             ,"Pivot":true
+            }
+           ,"Security":{
+              "Escape special characters":true
+            }
+          }
+        ]
+       ,"Printing":{
+          "Output":{
+            "View File As":"Attachment"
+          }
+         ,"Page":{
+            "Size":"Letter"
+           ,"Orientation":"Landscape"
+           ,"Units":"Inches"
+           ,"Width":11
+           ,"Height":8.5
+           ,"Border Width":0.5
+           ,"Border Color":"#666666"
+          }
+         ,"Page Header":{
+            "Font":"Helvetica"
+           ,"Font Weight":"Normal"
+           ,"Font Size":12
+           ,"Font Color":"#000000"
+           ,"Alignment":"center"
+           ,"Page Header Text":"Filiais"
+          }
+         ,"Column Headings":{
+            "Font":"Helvetica"
+           ,"Font Weight":"Bold"
+           ,"Font Size":10
+           ,"Font Color":"#000000"
+           ,"Background Color":"#EEEEEE"
+          }
+         ,"Columns":{
+            "Font":"Helvetica"
+           ,"Font Weight":"Normal"
+           ,"Font Size":10
+           ,"Font Color":"#000000"
+           ,"Background Color":"#FFFFFF"
+          }
+         ,"Page Footer":{
+            "Font":"Helvetica"
+           ,"Font Weight":"Normal"
+           ,"Font Size":12
+           ,"Font Color":"#000000"
+           ,"Alignment":"center"
+          }
+        }
+      }
+    }
+   ,{
+      "id":"63194540707106890012"
+     ,"Identification":{
+        "Title":"Breadcrumb"
+       ,"Type":"Breadcrumb"
+      }
+     ,"Source":{
+        "Breadcrumb":"Breadcrumb (62607204820972989557)"
+      }
+     ,"Layout":{
+        "Sequence":10
+       ,"Parent Region":"No Parent"
+       ,"Position":"REGION_POSITION_01"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Template":"Title Bar (62607321237676989608)"
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"t-BreadcrumbRegion--useBreadcrumbTitle"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Appearance":{
+          "Breadcrumb Template":"Breadcrumb (62607383652423989634)"
+         ,"Template Options":[
+            "#DEFAULT#"
+          ]
+        }
+      }
+    }
+  ]
+ ,"Buttons":[
+    {
+      "id":"63194539119030890011"
+     ,"Identification":{
+        "Button Name":"CREATE"
+       ,"Label":"Criar"
+      }
+     ,"Layout":{
+        "Sequence":10
+       ,"Region":"Filiais (63194535078976890008)"
+       ,"Position":"RIGHT_OF_IR_SEARCH_BAR"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Button Template":"Text (62607382055443989633)"
+       ,"Hot":true
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+      }
+     ,"Behavior":{
+        "Action":"Redirect to Page in this Application"
+       ,"Target":{
+          "url":"f?p=\u0026APP_ID.:21:\u0026APP_SESSION.::\u0026DEBUG.:21::"
+         ,"Page":"21"
+         ,"Clear Cache":"21"
+        }
+       ,"Warn on Unsaved Changes":"Do Not Check"
+      }
+    }
+  ]
+ ,"Dynamic Actions":[
+    {
+      "id":"63194539464643890011"
+     ,"Identification":{
+        "Name":"Edit Report - Dialog Closed"
+      }
+     ,"Execution":{
+        "Sequence":10
+       ,"Event Scope":"Static"
+       ,"Type":"Immediate"
+      }
+     ,"When":{
+        "Event":"EVENT.EVENT.FAMEWORK.APEXAFTERCLOSEDIALOG"
+       ,"Selection Type":"Region"
+       ,"Region":"Filiais (63194535078976890008)"
+      }
+     ,"Actions":[
+        {
+          "id":"63194539986133890011"
+         ,"Identification":{
+            "Action":"Refresh"
+          }
+         ,"Affected Elements":{
+            "Selection Type":"Region"
+           ,"Region":"Filiais (63194535078976890008)"
+          }
+         ,"Execution":{
+            "Sequence":10
+           ,"Event":"Edit Report - Dialog Closed (63194539464643890011)"
+           ,"Fire When Event Result Is":"True"
+           ,"Fire on Initialization":false
+          }
+        }
+      ]
+    }
+  ]
+}

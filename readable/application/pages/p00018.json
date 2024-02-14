@@ -1,0 +1,670 @@
+{
+  "id":"18"
+ ,"Identification":{
+    "Name":"Funcion\u00E1rios"
+   ,"Alias":"FUNCION\u00C1RIOS"
+   ,"Title":"Funcion\u00E1rios"
+  }
+ ,"Appearance":{
+    "Page Mode":"Normal"
+   ,"Page Template":"Theme Default"
+   ,"Template Options":[
+      "#DEFAULT#"
+    ]
+  }
+ ,"Navigation Menu":{
+    "Override User Interface Level":false
+  }
+ ,"Navigation":{
+    "Cursor Focus":"Do not focus cursor"
+   ,"Warn on Unsaved Changes":true
+  }
+ ,"Security":{
+    "Authentication":"Page Requires Authentication"
+   ,"Deep Linking":"Application Default"
+   ,"Page Access Protection":"Arguments Must Have Checksum"
+   ,"Form Auto Complete":"Off"
+   ,"Browser Cache":"Application Default"
+  }
+ ,"Session Management":{
+    "Rejoin Sessions":"Application Default"
+  }
+ ,"Advanced":{
+    "Enable duplicate page submissions":"Yes - Enable page to be re-posted"
+   ,"Reload on Submit":"Only for Success"
+  }
+ ,"Server Cache":{
+    "Caching":"Disabled"
+  }
+ ,"Regions":[
+    {
+      "id":"63157645672692214710"
+     ,"Identification":{
+        "Title":"Funcion\u00E1rios"
+       ,"Type":"Interactive Report"
+      }
+     ,"Source":{
+        "Location":"Local Database"
+       ,"Type":"Table \/ View"
+       ,"Table Owner":"Parsing Schema"
+       ,"Table Name":"ERP_FUNCIONARIO"
+       ,"Include ROWID Column":false
+      }
+     ,"Layout":{
+        "Sequence":10
+       ,"Parent Region":"No Parent"
+       ,"Position":"BODY"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Template":"Interactive Report (62607299016293989599)"
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"t-IRR-region--noBorders"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "id":"63157645774631214710"
+       ,"Link":{
+          "Link Column":"Link to Custom Target"
+         ,"Target":{
+            "url":"f?p=\u0026APP_ID.:19:\u0026APP_SESSION.::\u0026DEBUG.:RP:P19_ID:\u005C#ID#\u005C"
+           ,"Page":"19"
+           ,"Clear Cache":"RP"
+           ,"Values":{
+              "P19_ID":"#ID#"
+            }
+          }
+         ,"Link Icon":"\u003Cspan role=\"img\" aria-label=\"Edit\" class=\"fa fa-edit\" title=\"Edit\"\u003E\u003C\/span\u003E"
+        }
+       ,"Pagination":{
+          "Type":"Row Ranges X to Y"
+         ,"Display Position":"Bottom - Right"
+        }
+       ,"Performance":{
+          "Lazy Loading":false
+        }
+       ,"Messages":{
+          "When No Data Found":"No data found."
+         ,"When More Data Found":"The maximum row count for this report is #MAX_ROW_COUNT# rows.  Please apply a filter to reduce the number of records in your query."
+        }
+       ,"Search Bar":{
+          "Include Search Bar":true
+         ,"Search Field":true
+         ,"Finder Drop Down":true
+         ,"Reports Select List":true
+         ,"Rows Per Page Selector":false
+        }
+       ,"Actions Menu":{
+          "Include Actions Menu":true
+         ,"Filter":true
+         ,"Select Columns":true
+         ,"Rows Per Page":true
+         ,"Sort":true
+         ,"Control Break":true
+         ,"Highlight":true
+         ,"Compute":true
+         ,"Aggregate":true
+         ,"Chart":true
+         ,"Group By":true
+         ,"Pivot":true
+         ,"Flashback":true
+         ,"Save Report":true
+         ,"Save Public Report":false
+         ,"Reset":true
+         ,"Help":true
+         ,"Download":true
+         ,"Subscription":true
+        }
+       ,"Download":{
+          "Formats":[
+            "CSV"
+           ,"HTML"
+           ,"Excel"
+           ,"PDF"
+          ]
+         ,"Send as Email":true
+        }
+       ,"Heading":{
+          "Fixed To":"Page"
+        }
+       ,"Icon View":{
+          "Show":false
+        }
+       ,"Detail View":{
+          "Show":false
+        }
+       ,"Saved Reports":[
+          {
+            "id":"63158344985368731017"
+           ,"Identification":{
+              "Name":"Primary Report"
+             ,"Alias":"631583450"
+            }
+          }
+        ]
+       ,"Columns":[
+          {
+            "id":"63157646143683214711"
+           ,"Identification":{
+              "Column Name":"ID"
+             ,"Type":"Plain Text (based on List of Values)"
+            }
+           ,"List of Values":{
+              "List of Values":"ERP_FILIAL.NOME (62737636921220115342)"
+            }
+           ,"Heading":{
+              "Heading":"ID"
+             ,"Alignment":"start"
+            }
+           ,"Single Row View":{
+              "Use Column Heading":true
+            }
+           ,"Layout":{
+              "Sequence":0
+             ,"Column Alignment":"start"
+            }
+           ,"Accessibility":{
+              "Value Identifies Row":false
+            }
+           ,"Source":{
+              "Primary Key":true
+            }
+           ,"Column Filter":{
+              "Type":"Default Based on Column Type"
+            }
+           ,"Enable Users To":{
+              "Hide":true
+             ,"Sort":true
+             ,"Filter":true
+             ,"Highlight":true
+             ,"Control Break":true
+             ,"Aggregate":true
+             ,"Compute":true
+             ,"Chart":true
+             ,"Group By":true
+             ,"Pivot":true
+            }
+          }
+         ,{
+            "id":"63157646534950214711"
+           ,"Identification":{
+              "Column Name":"NOME"
+             ,"Type":"Plain Text"
+            }
+           ,"Heading":{
+              "Heading":"Nome"
+             ,"Alignment":"start"
+            }
+           ,"Single Row View":{
+              "Use Column Heading":true
+            }
+           ,"Layout":{
+              "Sequence":2
+             ,"Column Alignment":"start"
+            }
+           ,"Accessibility":{
+              "Value Identifies Row":false
+            }
+           ,"Source":{
+              "Primary Key":false
+            }
+           ,"Column Filter":{
+              "Type":"Default Based on Column Type"
+            }
+           ,"Enable Users To":{
+              "Hide":true
+             ,"Sort":true
+             ,"Filter":true
+             ,"Highlight":true
+             ,"Control Break":true
+             ,"Aggregate":true
+             ,"Compute":true
+             ,"Chart":true
+             ,"Group By":true
+             ,"Pivot":true
+            }
+           ,"Security":{
+              "Escape special characters":true
+            }
+          }
+         ,{
+            "id":"63157646975140214712"
+           ,"Identification":{
+              "Column Name":"CPF"
+             ,"Type":"Plain Text"
+            }
+           ,"Heading":{
+              "Heading":"CPF"
+             ,"Alignment":"center"
+            }
+           ,"Single Row View":{
+              "Use Column Heading":true
+            }
+           ,"Layout":{
+              "Sequence":3
+             ,"Column Alignment":"center"
+            }
+           ,"Accessibility":{
+              "Value Identifies Row":false
+            }
+           ,"Column Formatting":{
+              "HTML Expression":"\u003Cspan data-mask=\"000.000.000-00\"\u003E#CPF#\u003C\/span\u003E"
+            }
+           ,"Source":{
+              "Primary Key":false
+            }
+           ,"Column Filter":{
+              "Type":"Default Based on Column Type"
+            }
+           ,"Enable Users To":{
+              "Hide":true
+             ,"Sort":true
+             ,"Filter":true
+             ,"Highlight":true
+             ,"Control Break":true
+             ,"Aggregate":true
+             ,"Compute":true
+             ,"Chart":true
+             ,"Group By":true
+             ,"Pivot":true
+            }
+           ,"Security":{
+              "Escape special characters":true
+            }
+          }
+         ,{
+            "id":"63157647376029214712"
+           ,"Identification":{
+              "Column Name":"REPORTA_PARA"
+             ,"Type":"Plain Text (based on List of Values)"
+            }
+           ,"List of Values":{
+              "List of Values":"ERP_FUNCIONARIO.NOME (62737626307714115332)"
+            }
+           ,"Heading":{
+              "Heading":"Reporta para"
+             ,"Alignment":"start"
+            }
+           ,"Single Row View":{
+              "Use Column Heading":true
+            }
+           ,"Layout":{
+              "Sequence":4
+             ,"Column Alignment":"start"
+            }
+           ,"Accessibility":{
+              "Value Identifies Row":false
+            }
+           ,"Source":{
+              "Primary Key":false
+            }
+           ,"Column Filter":{
+              "Type":"Default Based on Column Type"
+            }
+           ,"Enable Users To":{
+              "Hide":true
+             ,"Sort":true
+             ,"Filter":true
+             ,"Highlight":true
+             ,"Control Break":true
+             ,"Aggregate":true
+             ,"Compute":true
+             ,"Chart":true
+             ,"Group By":true
+             ,"Pivot":true
+            }
+          }
+         ,{
+            "id":"63157647715521214712"
+           ,"Identification":{
+              "Column Name":"DATA_CRIACAO"
+             ,"Type":"Plain Text"
+            }
+           ,"Heading":{
+              "Heading":"Data cria\u00E7\u00E3o"
+             ,"Alignment":"center"
+            }
+           ,"Single Row View":{
+              "Use Column Heading":true
+            }
+           ,"Layout":{
+              "Sequence":5
+             ,"Column Alignment":"center"
+            }
+           ,"Accessibility":{
+              "Value Identifies Row":false
+            }
+           ,"Appearance":{
+              "Format Mask":"DD-MM-YYYY HH24:MI:SS"
+            }
+           ,"Source":{
+              "Primary Key":false
+            }
+           ,"Column Filter":{
+              "Type":"Default Based on Column Type"
+             ,"Date Ranges":"All"
+            }
+           ,"Enable Users To":{
+              "Hide":true
+             ,"Sort":true
+             ,"Filter":true
+             ,"Highlight":true
+             ,"Control Break":true
+             ,"Aggregate":true
+             ,"Compute":true
+             ,"Chart":true
+             ,"Group By":true
+             ,"Pivot":true
+            }
+           ,"Security":{
+              "Escape special characters":true
+            }
+          }
+         ,{
+            "id":"63157648163706214712"
+           ,"Identification":{
+              "Column Name":"DATA_ATUALIZACAO"
+             ,"Type":"Plain Text"
+            }
+           ,"Heading":{
+              "Heading":"Data atualiza\u00E7\u00E3o"
+             ,"Alignment":"start"
+            }
+           ,"Single Row View":{
+              "Use Column Heading":true
+            }
+           ,"Layout":{
+              "Sequence":6
+             ,"Column Alignment":"start"
+            }
+           ,"Accessibility":{
+              "Value Identifies Row":false
+            }
+           ,"Source":{
+              "Primary Key":false
+            }
+           ,"Column Filter":{
+              "Type":"Default Based on Column Type"
+             ,"Date Ranges":"All"
+            }
+           ,"Enable Users To":{
+              "Hide":true
+             ,"Sort":true
+             ,"Filter":true
+             ,"Highlight":true
+             ,"Control Break":true
+             ,"Aggregate":true
+             ,"Compute":true
+             ,"Chart":true
+             ,"Group By":true
+             ,"Pivot":true
+            }
+           ,"Security":{
+              "Escape special characters":true
+            }
+          }
+         ,{
+            "id":"63157648548504214713"
+           ,"Identification":{
+              "Column Name":"CRIADO_POR"
+             ,"Type":"Plain Text"
+            }
+           ,"Heading":{
+              "Heading":"Criado por"
+             ,"Alignment":"start"
+            }
+           ,"Single Row View":{
+              "Use Column Heading":true
+            }
+           ,"Layout":{
+              "Sequence":7
+             ,"Column Alignment":"start"
+            }
+           ,"Accessibility":{
+              "Value Identifies Row":false
+            }
+           ,"Source":{
+              "Primary Key":false
+            }
+           ,"Column Filter":{
+              "Type":"Default Based on Column Type"
+            }
+           ,"Enable Users To":{
+              "Hide":true
+             ,"Sort":true
+             ,"Filter":true
+             ,"Highlight":true
+             ,"Control Break":true
+             ,"Aggregate":true
+             ,"Compute":true
+             ,"Chart":true
+             ,"Group By":true
+             ,"Pivot":true
+            }
+           ,"Security":{
+              "Escape special characters":true
+            }
+          }
+         ,{
+            "id":"63157648910355214713"
+           ,"Identification":{
+              "Column Name":"ATUALIZADO_POR"
+             ,"Type":"Plain Text"
+            }
+           ,"Heading":{
+              "Heading":"Atualizado por"
+             ,"Alignment":"start"
+            }
+           ,"Single Row View":{
+              "Use Column Heading":true
+            }
+           ,"Layout":{
+              "Sequence":8
+             ,"Column Alignment":"start"
+            }
+           ,"Accessibility":{
+              "Value Identifies Row":false
+            }
+           ,"Source":{
+              "Primary Key":false
+            }
+           ,"Column Filter":{
+              "Type":"Default Based on Column Type"
+            }
+           ,"Enable Users To":{
+              "Hide":true
+             ,"Sort":true
+             ,"Filter":true
+             ,"Highlight":true
+             ,"Control Break":true
+             ,"Aggregate":true
+             ,"Compute":true
+             ,"Chart":true
+             ,"Group By":true
+             ,"Pivot":true
+            }
+           ,"Security":{
+              "Escape special characters":true
+            }
+          }
+         ,{
+            "id":"63157649348257214713"
+           ,"Identification":{
+              "Column Name":"USUARIO_ID"
+             ,"Type":"Plain Text"
+            }
+           ,"Heading":{
+              "Heading":"Usu\u00E1rio ID"
+             ,"Alignment":"end"
+            }
+           ,"Single Row View":{
+              "Use Column Heading":true
+            }
+           ,"Layout":{
+              "Sequence":9
+             ,"Column Alignment":"end"
+            }
+           ,"Accessibility":{
+              "Value Identifies Row":false
+            }
+           ,"Source":{
+              "Primary Key":false
+            }
+           ,"Column Filter":{
+              "Type":"Default Based on Column Type"
+            }
+           ,"Enable Users To":{
+              "Hide":true
+             ,"Sort":true
+             ,"Filter":true
+             ,"Highlight":true
+             ,"Control Break":true
+             ,"Aggregate":true
+             ,"Compute":true
+             ,"Chart":true
+             ,"Group By":true
+             ,"Pivot":true
+            }
+           ,"Security":{
+              "Escape special characters":true
+            }
+          }
+        ]
+       ,"Printing":{
+          "Output":{
+            "View File As":"Attachment"
+          }
+         ,"Page":{
+            "Size":"Letter"
+           ,"Orientation":"Landscape"
+           ,"Units":"Inches"
+           ,"Width":11
+           ,"Height":8.5
+           ,"Border Width":0.5
+           ,"Border Color":"#666666"
+          }
+         ,"Page Header":{
+            "Font":"Helvetica"
+           ,"Font Weight":"Normal"
+           ,"Font Size":12
+           ,"Font Color":"#000000"
+           ,"Alignment":"center"
+           ,"Page Header Text":"Funcion\u00E1rios"
+          }
+         ,"Column Headings":{
+            "Font":"Helvetica"
+           ,"Font Weight":"Bold"
+           ,"Font Size":10
+           ,"Font Color":"#000000"
+           ,"Background Color":"#EEEEEE"
+          }
+         ,"Columns":{
+            "Font":"Helvetica"
+           ,"Font Weight":"Normal"
+           ,"Font Size":10
+           ,"Font Color":"#000000"
+           ,"Background Color":"#FFFFFF"
+          }
+         ,"Page Footer":{
+            "Font":"Helvetica"
+           ,"Font Weight":"Normal"
+           ,"Font Size":12
+           ,"Font Color":"#000000"
+           ,"Alignment":"center"
+          }
+        }
+      }
+    }
+  ]
+ ,"Buttons":[
+    {
+      "id":"63157649887527214713"
+     ,"Identification":{
+        "Button Name":"CREATE"
+       ,"Label":"Criar"
+      }
+     ,"Layout":{
+        "Sequence":10
+       ,"Region":"Funcion\u00E1rios (63157645672692214710)"
+       ,"Position":"RIGHT_OF_IR_SEARCH_BAR"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Button Template":"Text (62607382055443989633)"
+       ,"Hot":true
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+      }
+     ,"Behavior":{
+        "Action":"Redirect to Page in this Application"
+       ,"Target":{
+          "url":"f?p=\u0026APP_ID.:19:\u0026APP_SESSION.::\u0026DEBUG.:19::"
+         ,"Page":"19"
+         ,"Clear Cache":"19"
+        }
+       ,"Warn on Unsaved Changes":"Do Not Check"
+      }
+    }
+  ]
+ ,"Dynamic Actions":[
+    {
+      "id":"63157650195537214714"
+     ,"Identification":{
+        "Name":"Edit Report - Dialog Closed"
+      }
+     ,"Execution":{
+        "Sequence":10
+       ,"Event Scope":"Static"
+       ,"Type":"Immediate"
+      }
+     ,"When":{
+        "Event":"EVENT.EVENT.FAMEWORK.APEXAFTERCLOSEDIALOG"
+       ,"Selection Type":"Region"
+       ,"Region":"Funcion\u00E1rios (63157645672692214710)"
+      }
+     ,"Actions":[
+        {
+          "id":"63157650687911214714"
+         ,"Identification":{
+            "Action":"Refresh"
+          }
+         ,"Affected Elements":{
+            "Selection Type":"Region"
+           ,"Region":"Funcion\u00E1rios (63157645672692214710)"
+          }
+         ,"Execution":{
+            "Sequence":10
+           ,"Event":"Edit Report - Dialog Closed (63157650195537214714)"
+           ,"Fire When Event Result Is":"True"
+           ,"Fire on Initialization":false
+          }
+        }
+      ]
+    }
+  ]
+}

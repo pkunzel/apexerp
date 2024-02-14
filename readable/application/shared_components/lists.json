@@ -1,0 +1,534 @@
+[
+  {
+    "id":"62607205390537989558"
+   ,"Identification":{
+      "Name":"Navigation Menu"
+    }
+   ,"Source":{
+      "Type":"Static Values"
+    }
+   ,"Entries":[
+      {
+        "id":"62607508639018989762"
+       ,"Label":{
+          "Label":"Home"
+        }
+       ,"Icon":{
+          "Image\/Icon CSS Classes":"fa-home"
+        }
+       ,"Layout":{
+          "Sequence":10
+        }
+       ,"Is Current":{
+          "Type":"Target Page"
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:1:\u0026APP_SESSION.::\u0026DEBUG.:::"
+           ,"Page":"1"
+          }
+        }
+       ,"Click Counting":{
+          "Count Clicks":false
+        }
+       ,"User Defined Attributes":{
+          "Translatable":false
+        }
+      }
+     ,{
+        "id":"62607572008142990112"
+       ,"Label":{
+          "Label":"Administration"
+        }
+       ,"Icon":{
+          "Image\/Icon CSS Classes":"fa-user-wrench"
+        }
+       ,"Layout":{
+          "Sequence":10000
+        }
+       ,"Is Current":{
+          "Type":"Target Page"
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:10000:\u0026APP_SESSION.::\u0026DEBUG.:::"
+           ,"Page":"10000"
+          }
+        }
+       ,"Click Counting":{
+          "Count Clicks":false
+        }
+       ,"User Defined Attributes":{
+          "Translatable":false
+        }
+       ,"Security":{
+          "Authorization Scheme":"Administration Rights (62607499510564989753)"
+        }
+      }
+     ,{
+        "id":"62726482253850502346"
+       ,"Label":{
+          "Label":"Tipo Contato"
+        }
+       ,"Icon":{
+          "Image\/Icon CSS Classes":"fa-phone"
+        }
+       ,"Layout":{
+          "Sequence":30
+        }
+       ,"Is Current":{
+          "Type":"Pages"
+         ,"Pages":[
+            "5"
+           ,"6"
+          ]
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:5:\u0026APP_SESSION.::\u0026DEBUG.:::"
+           ,"Page":"5"
+          }
+        }
+       ,"Click Counting":{
+          "Count Clicks":false
+        }
+       ,"User Defined Attributes":{
+          "Translatable":false
+        }
+      }
+     ,{
+        "id":"62803240772821997156"
+       ,"Label":{
+          "Label":"Estado"
+        }
+       ,"Icon":{
+          "Image\/Icon CSS Classes":"fa-map-o"
+        }
+       ,"Layout":{
+          "Sequence":50
+        }
+       ,"Is Current":{
+          "Type":"Pages"
+         ,"Pages":[
+            "12"
+           ,"13"
+          ]
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:12:\u0026APP_SESSION.::\u0026DEBUG.:::"
+           ,"Page":"12"
+          }
+        }
+       ,"Click Counting":{
+          "Count Clicks":false
+        }
+       ,"User Defined Attributes":{
+          "Translatable":false
+        }
+      }
+     ,{
+        "id":"63105338967006696390"
+       ,"Label":{
+          "Label":"Usu\u00E1rios"
+        }
+       ,"Icon":{
+          "Image\/Icon CSS Classes":"fa-table"
+        }
+       ,"Layout":{
+          "Sequence":20
+        }
+       ,"Is Current":{
+          "Type":"Pages"
+         ,"Pages":[
+            "2"
+           ,"14"
+          ]
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:2:\u0026APP_SESSION.::\u0026DEBUG.:::"
+           ,"Page":"2"
+          }
+        }
+       ,"Click Counting":{
+          "Count Clicks":false
+        }
+       ,"User Defined Attributes":{
+          "Translatable":false
+        }
+      }
+     ,{
+        "id":"63157645294752214710"
+       ,"Label":{
+          "Label":"Funcion\u00E1rios"
+        }
+       ,"Icon":{
+          "Image\/Icon CSS Classes":"fa-address-card-o"
+        }
+       ,"Layout":{
+          "Sequence":40
+        }
+       ,"Is Current":{
+          "Type":"Pages"
+         ,"Pages":[
+            "18"
+           ,"19"
+          ]
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:18:\u0026SESSION.::\u0026DEBUG.::::"
+           ,"Page":"18"
+          }
+        }
+       ,"Click Counting":{
+          "Count Clicks":false
+        }
+       ,"User Defined Attributes":{
+          "Translatable":false
+        }
+      }
+     ,{
+        "id":"63194534639724890007"
+       ,"Label":{
+          "Label":"Filiais"
+        }
+       ,"Icon":{
+          "Image\/Icon CSS Classes":"fa-building-o"
+        }
+       ,"Layout":{
+          "Sequence":60
+        }
+       ,"Is Current":{
+          "Type":"Pages"
+         ,"Pages":[
+            "20"
+           ,"21"
+          ]
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:20:\u0026SESSION.::\u0026DEBUG.::::"
+           ,"Page":"20"
+          }
+        }
+       ,"Click Counting":{
+          "Count Clicks":false
+        }
+       ,"User Defined Attributes":{
+          "Translatable":false
+        }
+      }
+    ]
+  }
+ ,{
+    "id":"62607495234478989746"
+   ,"Identification":{
+      "Name":"Navigation Bar"
+    }
+   ,"Source":{
+      "Type":"Static Values"
+    }
+   ,"Entries":[
+      {
+        "id":"62607568914919990110"
+       ,"Label":{
+          "Label":"About"
+        }
+       ,"Icon":{
+          "Image\/Icon CSS Classes":"fa-question-circle-o"
+        }
+       ,"Layout":{
+          "Sequence":10
+        }
+       ,"Is Current":{
+          "Type":"Target Page"
+        }
+       ,"User Defined Attributes":{
+          "Translatable":false
+         ,"2.":"icon-only"
+        }
+       ,"Configuration":{
+          "Build Option":"Feature: About Page (62607498329910989752)"
+        }
+      }
+     ,{
+        "id":"62607569497876990111"
+       ,"Label":{
+          "Label":"Page Help"
+        }
+       ,"Icon":{
+          "Image\/Icon CSS Classes":"fa-question-circle-o"
+        }
+       ,"Layout":{
+          "Sequence":20
+         ,"Parent Entry":"About (62607568914919990110)"
+        }
+       ,"Is Current":{
+          "Type":"Target Page"
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:10021:\u0026APP_SESSION.::\u0026DEBUG.::P10021_PAGE_ID:\u0026APP_PAGE_ID."
+           ,"Page":"10021"
+           ,"Values":{
+              "P10021_PAGE_ID":"\u0026APP_PAGE_ID."
+            }
+          }
+        }
+       ,"Click Counting":{
+          "Count Clicks":false
+        }
+       ,"User Defined Attributes":{
+          "Translatable":false
+         ,"2.":"icon-only"
+        }
+       ,"Configuration":{
+          "Build Option":"Feature: About Page (62607498329910989752)"
+        }
+      }
+     ,{
+        "id":"62607569824199990111"
+       ,"Label":{
+          "Label":"---"
+        }
+       ,"Layout":{
+          "Sequence":30
+         ,"Parent Entry":"About (62607568914919990110)"
+        }
+       ,"Is Current":{
+          "Type":"Target Page"
+        }
+       ,"Link":{
+          "Target":"separator"
+        }
+       ,"Click Counting":{
+          "Count Clicks":false
+        }
+       ,"User Defined Attributes":{
+          "Translatable":false
+        }
+      }
+     ,{
+        "id":"62607570263765990111"
+       ,"Label":{
+          "Label":"About Page"
+        }
+       ,"Icon":{
+          "Image\/Icon CSS Classes":"fa-info-circle-o"
+        }
+       ,"Layout":{
+          "Sequence":40
+         ,"Parent Entry":"About (62607568914919990110)"
+        }
+       ,"Is Current":{
+          "Type":"Target Page"
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:10020:\u0026APP_SESSION.::\u0026DEBUG.:10020::"
+           ,"Page":"10020"
+           ,"Clear Cache":"10020"
+          }
+        }
+       ,"Click Counting":{
+          "Count Clicks":false
+        }
+       ,"User Defined Attributes":{
+          "Translatable":false
+        }
+       ,"Configuration":{
+          "Build Option":"Feature: About Page (62607498329910989752)"
+        }
+      }
+     ,{
+        "id":"62607570502526990111"
+       ,"Label":{
+          "Label":"\u0026APP_USER."
+        }
+       ,"Icon":{
+          "Image\/Icon CSS Classes":"fa-user"
+        }
+       ,"Layout":{
+          "Sequence":50
+        }
+       ,"Is Current":{
+          "Type":"Target Page"
+        }
+       ,"Link":{
+          "Target":"#"
+        }
+       ,"Click Counting":{
+          "Count Clicks":false
+        }
+       ,"User Defined Attributes":{
+          "Translatable":false
+         ,"2.":"has-username"
+        }
+      }
+     ,{
+        "id":"62607571071660990112"
+       ,"Label":{
+          "Label":"---"
+        }
+       ,"Layout":{
+          "Sequence":60
+         ,"Parent Entry":"\u0026APP_USER. (62607570502526990111)"
+        }
+       ,"Is Current":{
+          "Type":"Target Page"
+        }
+       ,"Link":{
+          "Target":"separator"
+        }
+       ,"Click Counting":{
+          "Count Clicks":false
+        }
+       ,"User Defined Attributes":{
+          "Translatable":false
+        }
+       ,"Server-side Condition":{
+          "Type":"User is Authenticated (not public)"
+        }
+      }
+     ,{
+        "id":"62607571483377990112"
+       ,"Label":{
+          "Label":"Sign Out"
+        }
+       ,"Icon":{
+          "Image\/Icon CSS Classes":"fa-sign-out"
+        }
+       ,"Layout":{
+          "Sequence":70
+         ,"Parent Entry":"\u0026APP_USER. (62607570502526990111)"
+        }
+       ,"Is Current":{
+          "Type":"Target Page"
+        }
+       ,"Link":{
+          "Target":"\u0026LOGOUT_URL."
+        }
+       ,"Click Counting":{
+          "Count Clicks":false
+        }
+       ,"User Defined Attributes":{
+          "Translatable":false
+        }
+       ,"Server-side Condition":{
+          "Type":"User is Authenticated (not public)"
+        }
+      }
+    ]
+  }
+ ,{
+    "id":"62607528638844989879"
+   ,"Identification":{
+      "Name":"Page Navigation"
+    }
+   ,"Source":{
+      "Type":"Static Values"
+    }
+   ,"Entries":[
+      {
+        "id":"62607529082639989879"
+       ,"Label":{
+          "Label":"Cadastro Usuario"
+        }
+       ,"Icon":{
+          "Image\/Icon CSS Classes":"fa-forms"
+        }
+       ,"Layout":{
+          "Sequence":20
+        }
+       ,"Is Current":{
+          "Type":"Target Page"
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:2:\u0026APP_SESSION.::\u0026DEBUG.:::"
+           ,"Page":"2"
+          }
+        }
+       ,"Click Counting":{
+          "Count Clicks":false
+        }
+       ,"User Defined Attributes":{
+          "Translatable":false
+        }
+      }
+    ]
+  }
+ ,{
+    "id":"62607573149084990113"
+   ,"Identification":{
+      "Name":"Access Control"
+    }
+   ,"Source":{
+      "Type":"Static Values"
+    }
+   ,"Configuration":{
+      "Build Option":"Feature: Access Control (62607497631341989752)"
+    }
+   ,"Entries":[
+      {
+        "id":"62607573551335990113"
+       ,"Label":{
+          "Label":"Users"
+        }
+       ,"Icon":{
+          "Image\/Icon CSS Classes":"fa-users"
+        }
+       ,"Layout":{
+          "Sequence":10
+        }
+       ,"Is Current":{
+          "Type":"Target Page"
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:10011:\u0026APP_SESSION.::\u0026DEBUG.:RP::"
+           ,"Page":"10011"
+           ,"Clear Cache":"RP"
+          }
+        }
+       ,"Click Counting":{
+          "Count Clicks":false
+        }
+       ,"User Defined Attributes":{
+          "Translatable":false
+         ,"1.":"Set level of access for authenticated users of this application"
+        }
+      }
+     ,{
+        "id":"62607573937653990113"
+       ,"Label":{
+          "Label":"Access Control"
+        }
+       ,"Icon":{
+          "Image\/Icon CSS Classes":"fa-key"
+        }
+       ,"Layout":{
+          "Sequence":20
+        }
+       ,"Is Current":{
+          "Type":"Target Page"
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:10010:\u0026APP_SESSION.::\u0026DEBUG.:::"
+           ,"Page":"10010"
+          }
+        }
+       ,"Click Counting":{
+          "Count Clicks":false
+        }
+       ,"User Defined Attributes":{
+          "Translatable":false
+         ,"1.":"Change access control settings and disable access control"
+        }
+      }
+    ]
+  }
+]
